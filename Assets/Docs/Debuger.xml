@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Debuger</name>
+    </assembly>
+    <members>
+        <member name="T:Custom.Log.Debuger">
+            <summary>
+            Unity 的 Debug 的封装类
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.EnableLog">
+            <summary>
+            是否输出打印
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.EnableTime">
+            <summary>
+            是否显示打印时间
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.EnableSave">
+            <summary>
+            是否储存打印到文本
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.EnableStack">
+            <summary>
+            是否显示堆栈打印信息
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.LogFileDir">
+            <summary>
+            打印文本保存文件夹路径
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.LogFileName">
+            <summary>
+            打印文本名称
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.Prefix">
+            <summary>
+            打印前缀
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.LogFileWriter">
+            <summary>
+            打印文本流
+            </summary>
+        </member>
+        <member name="F:Custom.Log.Debuger.UseUnityEngine">
+            <summary>
+            是否使用Unity打印
+            </summary>
+        </member>
+        <member name="M:Custom.Log.Debuger.Log(System.String,System.String)">
+            <summary>
+            Debug.Log 对应封装函数
+            </summary>
+            <param name="tag">触发函数对应的类</param>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.Debuger.Log(System.String,System.String,System.Object[])">
+            <summary>
+            Debug.Log 对应封装函数
+            </summary>
+            <param name="tag">触发函数对应的类</param>
+            <param name="format"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogWarning(System.Object)">
+            <summary>
+            Debug.LogWarning 对应封装函数
+            </summary>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogWarning(System.Object,System.Object)">
+            <summary>
+            Debug.LogWarning 对应封装函数
+            </summary>
+            <param name="message"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogWarning(System.String,System.String)">
+            <summary>
+            Debug.LogWarning 对应封装函数
+            </summary>
+            <param name="tag">触发函数对应的类</param>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogWarning(System.String,System.String,System.Object[])">
+            <summary>
+            Debug.LogWarning 对应封装函数
+            </summary>
+            <param name="tag">触发函数对应的类</param>
+            <param name="format"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogError(System.Object)">
+            <summary>
+            Debug.LogError 对应封装函数
+            </summary>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogError(System.Object,System.Object)">
+            <summary>
+            Debug.LogError 对应封装函数
+            </summary>
+            <param name="message">打印信息</param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogError(System.String,System.String)">
+            <summary>
+            Debug.LogError 对应封装函数
+            </summary>
+            <param name="tag">触发函数对应的类</param>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogError(System.String,System.String,System.Object[])">
+            <summary>
+            Debug.LogError 对应封装函数
+            </summary>
+            <param name="tag">触发函数对应的类</param>
+            <param name="format"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Custom.Log.Debuger.GetLogTime(System.String,System.String)">
+            <summary>
+            获取打印时间
+            </summary>
+            <param name="tag">触发打印信息对应的类或者NAME字段名称</param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Custom.Log.Debuger.GetLogTime">
+            <summary>
+            获取打印时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Custom.Log.Debuger.LogToFile(System.String,System.Boolean)">
+            <summary>
+            序列化打印信息
+            </summary>
+            <param name="message">打印信息</param>
+            <param name="EnableStack">是否开启堆栈打印</param>
+        </member>
+        <member name="T:Custom.Log.DebugerExtension">
+            <summary>
+            自定义Debuger类的扩展类
+            </summary>
+        </member>
+        <member name="M:Custom.Log.DebugerExtension.Log(System.Object,System.String)">
+            <summary>
+            Debug.Log扩展，用法与Debug.Log相符
+            </summary>
+            <param name="obj">触发函数对应的类</param>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.DebugerExtension.Log(System.Object,System.String,System.Object[])">
+            <summary>
+            Debug.Log扩展，用法与Debug.Log相符
+            </summary>
+            <param name="obj">触发函数对应的类</param>
+            <param name="format"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Custom.Log.DebugerExtension.LogWarning(System.Object,System.String)">
+            <summary>
+            Debug.LogWarning扩展，用法与Debug.LogWarning相符
+            </summary>
+            <param name="obj">触发函数对应的类</param>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.DebugerExtension.LogWarning(System.Object,System.String,System.Object[])">
+            <summary>
+            Debug.LogWarning扩展，用法与Debug.LogWarning相符
+            </summary>
+            <param name="obj">触发函数对应的类</param>
+            <param name="format"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Custom.Log.DebugerExtension.LogError(System.Object,System.String)">
+            <summary>
+            Debug.LogError扩展，用法与Debug.LogError相符
+            </summary>
+            <param name="obj">触发函数对应的类</param>
+            <param name="message">打印信息</param>
+        </member>
+        <member name="M:Custom.Log.DebugerExtension.LogError(System.Object,System.String,System.Object[])">
+            <summary>
+            Debug.LogError扩展，用法与Debug.LogError相符
+            </summary>
+            <param name="obj">触发函数对应的类</param>
+            <param name="format"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Custom.Log.DebugerExtension.GetLogTag(System.Object)">
+            <summary>
+            获取调用打印的类名称或者标记有NAME的字段 
+            有NAME字段的，触发类名称用NAME字段对应的赋值
+            没有用类的名称代替
+            </summary>
+            <param name="obj">触发Log对应的类</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
