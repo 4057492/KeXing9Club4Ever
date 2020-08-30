@@ -4,24 +4,52 @@ using UnityEngine;
 
 public class RGBChanger : MonoBehaviour
 {
-    public float minS = 0.0f;
-    public float maxS = 1.0f;
-
-    public Color GetColorByDuration(float duration = 0.0f, float minSaturation = 0.0f, float maxSaturation = 1.0f, float alpha = 1.0f)
+    public static float maxDuration = 6f;
+    public static Color GetColorByDuration(float duration = 0.0f, float minSaturation = 0.0f, float maxSaturation = 1.0f, float alpha = 1.0f)
     {
-        Color result = new Color(minSaturation, minSaturation, minSaturation, alpha);
-        /*if (duration >= 0.0f && duration < 1.0f)
+        /*Color result = new Color(minSaturation, minSaturation, minSaturation, alpha);
+        if (duration >= 0 && duration < 1f)
         {
-            result.r = maxSaturation;
-            result.b = minSaturation;
-            result.g = duration * maxSaturation + minSaturation;
+            result.g = Mathf.Lerp(0, 1f, duration);
+            result.r = 1f;
+            result.b = 0;
         }
-        else if(duration >= 1.0f && duration < 2.0f)
+        else if(duration >= 1f && duration < 2f)
         {
-            result.g = maxSaturation;
-            result.b = minSaturation;
-            result.g = (1 - duration) * maxSaturation + minSaturation;
-        }*/
+            result.a = 1 - Mathf.Lerp(0, 1f, duration - 1f);
+            result.g = 1f;
+            result.b = 0;
+        }
+        else if(duration >= 2f && duration < 3f)
+        {
+            result.b = Mathf.Lerp(0, 1f, duration - 2f);
+            result.g = 1f;
+            result.a = 0;
+        }
+        else if(duration >= 3f && duration < 4f)
+        {
+            result.g = 1 - Mathf.Lerp(0, 1f, duration - 3f);
+            result.b = 1f;
+            result.a = 0;
+        }
+        else if(duration >= 4f && duration < 5f)
+        {
+            result.a = Mathf.Lerp(0, 1, duration - 4f);
+            result.b = 1f;
+            result.g = 0;
+        }
+        else if(duration >= 5f && duration <= 6f)
+        {
+            result.b = 1 - Mathf.Lerp(0, 1f, duration - 5f);
+            result.a = 1f;
+            result.g = 0;
+        }
+        //result.r = Mathf.Lerp(minSaturation, maxSaturation, result.r);
+        //result.g = Mathf.Lerp(minSaturation, maxSaturation, result.g);
+        //result.b = Mathf.Lerp(minSaturation, maxSaturation, result.b);
+        result.a = alpha;*/
+        Color result = new Color(0, 0, 0, 0);
+        
         return result;
     }
 }
