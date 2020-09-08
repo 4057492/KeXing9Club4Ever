@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
-    static int MoveDirection = 0;
+    public float speed = 0;
+    public float acceleration = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +16,11 @@ public class CharacterMove : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void AddSpeed()
+    {
+        speed += acceleration;
+        print(speed);
     }
 }
