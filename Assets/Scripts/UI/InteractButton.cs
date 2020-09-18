@@ -38,7 +38,6 @@ public class InteractButton : MonoBehaviour
         if(target == null)
         {
             Instance.InteractTarget = null;
-            print("set null");
             return;
         }
         IInteractable temp = target.GetComponent(typeof(IInteractable)) as IInteractable;
@@ -51,7 +50,6 @@ public class InteractButton : MonoBehaviour
             Instance.InteractTarget.InteractUnable();
         }
         Instance.InteractTarget = temp;
-        print(target.name);
     }
 
     static public void SetInteractButton(bool ifInteractable)

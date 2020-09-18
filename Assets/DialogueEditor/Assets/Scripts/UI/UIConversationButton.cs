@@ -39,7 +39,7 @@ namespace DialogueEditor
             m_rect = GetComponent<RectTransform>();
         }
 
-        private void Update()
+        /*private void Update()
         {
             if (Hovering)
             {
@@ -72,7 +72,7 @@ namespace DialogueEditor
                     m_hoverState = (m_hoverState == eHoverState.animatingOn) ? eHoverState.idleOn : eHoverState.idleOff;
                 }
             }
-        }
+        }*/
 
 
 
