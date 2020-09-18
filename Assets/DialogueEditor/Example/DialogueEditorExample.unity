@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -754,20 +754,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 12
-  json: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-59.5,"yPos":124},"ID":1,"TMPFontGUID":"","Text":"I''ve
-    traveled from afar in seek of new magical spells.","parentUIDs":[0,0],"SpeechUID":3},{"EditorInfo":{"isRoot":false,"xPos":261.5,"yPos":125},"ID":2,"TMPFontGUID":"","Text":"I
-    come in search of a quest.","parentUIDs":[0,0],"SpeechUID":4},{"EditorInfo":{"isRoot":false,"xPos":307.5,"yPos":326},"ID":5,"TMPFontGUID":"","Text":"Yes!","parentUIDs":[4,4],"SpeechUID":10},{"EditorInfo":{"isRoot":false,"xPos":83.5,"yPos":326},"ID":6,"TMPFontGUID":"","Text":"No...
-    I''ve changed my mind. ","parentUIDs":[4,3,3,4],"SpeechUID":9},{"EditorInfo":{"isRoot":false,"xPos":-179.5,"yPos":319},"ID":7,"TMPFontGUID":"","Text":"Yes!","parentUIDs":[3,3],"SpeechUID":8}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":100.5,"yPos":22},"ID":0,"TMPFontGUID":"","Text":"Hello
+  json: '{"Options":[{"EditorInfo":{"isRoot":false,"xPos":-136.5,"yPos":124},"ID":1,"TMPFontGUID":"","Text":"I''ve
+    traveled from afar in seek of new magical spells.","parentUIDs":[0,0],"SpeechUID":3},{"EditorInfo":{"isRoot":false,"xPos":184.5,"yPos":125},"ID":2,"TMPFontGUID":"","Text":"I
+    come in search of a quest.","parentUIDs":[0,0],"SpeechUID":4},{"EditorInfo":{"isRoot":false,"xPos":230.5,"yPos":326},"ID":5,"TMPFontGUID":"","Text":"Yes!","parentUIDs":[4,4],"SpeechUID":10},{"EditorInfo":{"isRoot":false,"xPos":6.5,"yPos":326},"ID":6,"TMPFontGUID":"","Text":"No...
+    I''ve changed my mind. ","parentUIDs":[4,3,3,4],"SpeechUID":9},{"EditorInfo":{"isRoot":false,"xPos":-256.5,"yPos":319},"ID":7,"TMPFontGUID":"","Text":"Yes!","parentUIDs":[3,3],"SpeechUID":8}],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":23.5,"yPos":22},"ID":0,"TMPFontGUID":"","Text":"Hello
     traveler. I see you''ve come from far.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":"","AutoAdvanceShouldDisplayOption":false,"IconGUID":"2c2a5be59b4a36648a911535c6e46ab8","Name":"The
-    great wizard","OptionUIDs":[1,2],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-59.5,"yPos":208},"ID":3,"TMPFontGUID":"","Text":"Some
+    great wizard","OptionUIDs":[1,2],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-136.5,"yPos":208},"ID":3,"TMPFontGUID":"","Text":"Some
     magic, are you prepared?","parentUIDs":[1,1],"AdvanceDialogueAutomatically":false,"AudioGUID":"","AutoAdvanceShouldDisplayOption":false,"IconGUID":"2c2a5be59b4a36648a911535c6e46ab8","Name":"The
-    great wizard","OptionUIDs":[7,6],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":260.5,"yPos":212},"ID":4,"TMPFontGUID":"","Text":"Are
+    great wizard","OptionUIDs":[7,6],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":183.5,"yPos":212},"ID":4,"TMPFontGUID":"","Text":"Are
     you sure?","parentUIDs":[2,2],"AdvanceDialogueAutomatically":false,"AudioGUID":"","AutoAdvanceShouldDisplayOption":false,"IconGUID":"2c2a5be59b4a36648a911535c6e46ab8","Name":"The
-    great wizard","OptionUIDs":[5,6],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-173.5,"yPos":405},"ID":8,"TMPFontGUID":"","Text":"Very
+    great wizard","OptionUIDs":[5,6],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":-250.5,"yPos":405},"ID":8,"TMPFontGUID":"","Text":"Very
     well, I will teach you the ancient magic. ","parentUIDs":[7,7],"AdvanceDialogueAutomatically":false,"AudioGUID":"","AutoAdvanceShouldDisplayOption":false,"IconGUID":"2c2a5be59b4a36648a911535c6e46ab8","Name":"The
-    great wizard","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":83.5,"yPos":402},"ID":9,"TMPFontGUID":"","Text":"Fare
+    great wizard","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":6.5,"yPos":402},"ID":9,"TMPFontGUID":"","Text":"Fare
     the well, traveler. ","parentUIDs":[6,6],"AdvanceDialogueAutomatically":false,"AudioGUID":"","AutoAdvanceShouldDisplayOption":false,"IconGUID":"2c2a5be59b4a36648a911535c6e46ab8","Name":"The
-    great wizard","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":313.5,"yPos":404},"ID":10,"TMPFontGUID":"","Text":"Very
+    great wizard","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0},{"EditorInfo":{"isRoot":false,"xPos":236.5,"yPos":404},"ID":10,"TMPFontGUID":"","Text":"Very
     well, You may begin your quest. ","parentUIDs":[5,5],"AdvanceDialogueAutomatically":false,"AudioGUID":"","AutoAdvanceShouldDisplayOption":false,"IconGUID":"2c2a5be59b4a36648a911535c6e46ab8","Name":"The
     great wizard","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 103
