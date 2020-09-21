@@ -60,3 +60,6 @@ crashlytics-build.properties
 
 # fonts
 Assets/Fonts/chinese_simplified1 SDF.asset
+ProjectSettings/ProjectVersion.txt
+Packages/manifest.json
+Packages/manifest.json

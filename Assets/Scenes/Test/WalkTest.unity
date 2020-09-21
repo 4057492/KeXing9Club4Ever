@@ -834,7 +834,7 @@ MonoBehaviour:
   saveVersion: 103
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 9d94d4880eb7a4d4aab7524f7042d1c0, type: 2}
+  DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1217491677}
   - {fileID: 1217491676}
@@ -1457,7 +1457,7 @@ MonoBehaviour:
   saveVersion: 103
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 9d94d4880eb7a4d4aab7524f7042d1c0, type: 2}
+  DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 805993452}
   - {fileID: 805993451}
@@ -1819,7 +1819,7 @@ MonoBehaviour:
   saveVersion: 103
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 9d94d4880eb7a4d4aab7524f7042d1c0, type: 2}
+  DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 736624546}
   - {fileID: 736624545}
@@ -1883,7 +1883,7 @@ MonoBehaviour:
   saveVersion: 103
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 9d94d4880eb7a4d4aab7524f7042d1c0, type: 2}
+  DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1989016638}
   - {fileID: 1989016637}
@@ -2617,7 +2617,7 @@ MonoBehaviour:
   saveVersion: 103
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 9d94d4880eb7a4d4aab7524f7042d1c0, type: 2}
+  DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1474348179}
   - {fileID: 1474348178}
@@ -2835,18 +2835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c481c6b05beb7e42b31c61e6feede81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1672042835 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1672042835, guid: 2c98fd2cc0413fe4c81393f98bccf096,
-    type: 3}
-  m_PrefabInstance: {fileID: 7175985431633215582}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c481c6b05beb7e42b31c61e6feede81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1682721585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2895,7 +2883,7 @@ MonoBehaviour:
   saveVersion: 103
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 9d94d4880eb7a4d4aab7524f7042d1c0, type: 2}
+  DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 166415508}
   - {fileID: 166415507}
@@ -3689,6 +3677,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4130,7 +4119,7 @@ PrefabInstance:
     - target: {fileID: 1038318873, guid: 2c98fd2cc0413fe4c81393f98bccf096, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1672042835}
+      objectReference: {fileID: 0}
     - target: {fileID: 1038318873, guid: 2c98fd2cc0413fe4c81393f98bccf096, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetTargetsActive
@@ -4262,7 +4251,7 @@ PrefabInstance:
     - target: {fileID: 1956093219, guid: 2c98fd2cc0413fe4c81393f98bccf096, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1672042835}
+      objectReference: {fileID: 0}
     - target: {fileID: 1956093219, guid: 2c98fd2cc0413fe4c81393f98bccf096, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetTargetsActive
@@ -4270,6 +4259,16 @@ PrefabInstance:
     - target: {fileID: 1956093219, guid: 2c98fd2cc0413fe4c81393f98bccf096, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 79328656889352580, guid: 2c98fd2cc0413fe4c81393f98bccf096,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293292276291103730, guid: 2c98fd2cc0413fe4c81393f98bccf096,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3996881846543455099, guid: 2c98fd2cc0413fe4c81393f98bccf096,
         type: 3}
@@ -4519,6 +4518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HUB
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175985430279528848, guid: 2c98fd2cc0413fe4c81393f98bccf096,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7175985431507025454, guid: 2c98fd2cc0413fe4c81393f98bccf096,
         type: 3}
