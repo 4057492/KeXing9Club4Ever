@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using System;
 using UnityEngine.Serialization;
+using DialogueEditor;
 
 public class TriggerManager : MonoBehaviour,IInteractable
 {
@@ -79,6 +80,20 @@ public class TriggerManager : MonoBehaviour,IInteractable
         {
             InteractButton.SetInteractTarget(null);
             InteractButton.SetInteractButton(false);
+        }
+    }
+
+    public void TriggerNextDialogue()
+    {
+        GameObject npc = gameObject;
+        GameObject conversationObj = npc.transform.Find("Conversation4").gameObject;
+        if (conversationObj != null)
+        {
+            conversationObj.SetActive(true);
+            Debug.Log(conversationObj.name);
+
+            // NPCConversation conversationComponent = conversationObj.GetComponent<NPCConversation>();
+            // ConversationManager.StartConversation(conversationComponent);
         }
     }
 
