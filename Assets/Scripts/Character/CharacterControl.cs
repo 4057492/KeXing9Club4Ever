@@ -7,6 +7,7 @@ public class CharacterControl : Statem {
     public int moveDir = 0;
 	public float maxSpeed = 2f;
 	public float minSpeed = 0.1f;
+
 	private Rigidbody rig;
 	private Animator animator;
 
@@ -15,13 +16,16 @@ public class CharacterControl : Statem {
 
 	public float force = 50f;
 
-	private Vector3 scaleLeft;
+	public Vector3 scaleLeft = Vector3.zero;
 	private Vector3 scaleRight;
 
 	// Use this for initialization
 	void Start () {
-		scaleLeft = transform.localScale;
-		scaleRight = new Vector3 (-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        if (scaleLeft == Vector3.zero)
+        {
+            scaleLeft = transform.localScale;
+        }
+        scaleRight = new Vector3 (-scaleLeft.x, scaleLeft.y, scaleLeft.z);
 		rig = GetComponent<Rigidbody> ();
 		animator = GetComponent<Animator> ();
 		/*if (particle != null) {
