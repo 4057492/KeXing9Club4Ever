@@ -347,6 +347,9 @@ namespace DialogueEditor
 
             if (OnConversationEnded != null)
                 OnConversationEnded.Invoke();
+            //Object  conversition1 = GameObject.Find ("Conversation3");
+            //NPCConversation temp = (NPCConversation)conversition1;
+            //StartConversation(temp);
         }
 
 
