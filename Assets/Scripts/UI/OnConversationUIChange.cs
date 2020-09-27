@@ -5,7 +5,9 @@ using DialogueEditor;
 
 public class OnConversationUIChange : MonoBehaviour
 {
+    public CharacterMove characterMove;
     public SetMultiGameobjecsActive MainHUBControl;
+    public SetMultiGameobjecsActive NotebookHUBControl;
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -23,6 +25,14 @@ public class OnConversationUIChange : MonoBehaviour
         if(MainHUBControl)
         {
             MainHUBControl.SetTargetsActive(false);
+        }
+        if(characterMove)
+        {
+            characterMove.StopMove();
+        }
+        if(NotebookHUBControl)
+        {
+            NotebookHUBControl.SetTargetsActive(false);
         }
     }
 
