@@ -158,189 +158,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &132034550
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 132034551}
-  - component: {fileID: 132034557}
-  - component: {fileID: 132034556}
-  - component: {fileID: 132034555}
-  - component: {fileID: 132034554}
-  - component: {fileID: 132034553}
-  - component: {fileID: 132034552}
-  m_Layer: 0
-  m_Name: ConversationEventInfo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &132034551
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132034550}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 612335623}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &132034552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132034550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 7
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &132034553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132034550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 6
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &132034554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132034550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 5
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &132034555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132034550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 2
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &132034556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132034550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 1
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &132034557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132034550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 0
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 419104706}
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 419104706}
-        m_MethodName: CamShake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1571825406}
-        m_MethodName: SetFunctionToConversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
-  Audio: {fileID: 0}
 --- !u!1 &136446129
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +216,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u70B9\u51FB\u4E0B\u65B9\u6309\u94AE\u8FDB\u884C\u79FB\u52A8"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9d94d4880eb7a4d4aab7524f7042d1c0, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -1363676840685680988, guid: 9d94d4880eb7a4d4aab7524f7042d1c0,
     type: 2}
   m_fontSharedMaterials: []
@@ -930,146 +747,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &190936373
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 190936374}
-  - component: {fileID: 190936377}
-  - component: {fileID: 190936376}
-  - component: {fileID: 190936375}
-  m_Layer: 0
-  m_Name: clasey
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &190936374
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190936373}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.03, y: -2.8, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 454149113}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &190936375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190936373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ef98d047c6cc8458176a3e8e78134f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OnTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 190936377}
-        m_MethodName: set_flipX
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 190936376}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_OnTriggerExit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTriggerInteract:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!65 &190936376
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190936373}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 10, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!212 &190936377
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190936373}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 436416c9065594d57a77f25d32c23e8a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 5351476090715925925, guid: 8ef2e21faf4756b4e915874080871b65,
-    type: 3}
-  m_Color: {r: 1, g: 0.25943398, b: 0.25943398, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.8, y: 8.4}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &203542302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +836,7 @@ GameObject:
   - component: {fileID: 233653271}
   - component: {fileID: 233653273}
   m_Layer: 0
-  m_Name: FirstSceneTimeline
+  m_Name: Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1313,258 +990,6 @@ Transform:
   m_Father: {fileID: 841195485}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &319365226
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 319365227}
-  - component: {fileID: 319365237}
-  - component: {fileID: 319365236}
-  - component: {fileID: 319365235}
-  - component: {fileID: 319365234}
-  - component: {fileID: 319365233}
-  - component: {fileID: 319365232}
-  - component: {fileID: 319365231}
-  - component: {fileID: 319365230}
-  - component: {fileID: 319365229}
-  - component: {fileID: 319365228}
-  m_Layer: 0
-  m_Name: ConversationEventInfo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &319365227
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1081848605}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &319365228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 17
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &319365229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 16
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -4756028443593143600, guid: 8ef2e21faf4756b4e915874080871b65, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &319365230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 15
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4983692595894577325, guid: 8ef2e21faf4756b4e915874080871b65, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &319365231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 14
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &319365232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 7
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &319365233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 6
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &319365234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 5
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &319365235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 2
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &319365236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 1
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &319365237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319365226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NodeID: 0
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 419104706}
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 419104706}
-        m_MethodName: CamShake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
-  Audio: {fileID: 0}
 --- !u!1 &320947269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,11 +1127,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333470867}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.06, y: -1.63, z: -10}
+  m_LocalPosition: {x: 9.06, y: -2.23, z: -0.5000005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 454149113}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &333470869
 MonoBehaviour:
@@ -1732,7 +1157,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 333470870}
         m_MethodName: set_enabled
@@ -1970,37 +1395,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &338673890
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 338673891}
-  m_Layer: 0
-  m_Name: Conversation3End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &338673891
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338673890}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.626457, y: 2.9646304, z: -18.945312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 792995318}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &391674911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,7 +1748,7 @@ GameObject:
   - component: {fileID: 454149113}
   - component: {fileID: 454149112}
   m_Layer: 0
-  m_Name: listening_room
+  m_Name: central-room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2421,10 +1815,7 @@ Transform:
   m_LocalPosition: {x: -2.82, y: 2.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1696000159}
-  - {fileID: 190936374}
   - {fileID: 333470868}
-  - {fileID: 1456451975}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2607,100 +1998,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &612335622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 612335623}
-  - component: {fileID: 612335624}
-  m_Layer: 0
-  m_Name: Conversation4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &612335623
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 612335622}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6286297, y: -4.036466, z: 2.6608925}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 132034551}
-  m_Father: {fileID: 1240903346}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &612335624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 612335622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":37,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u6211...\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
-  saveVersion: 103
-  DefaultName: "\u8239\u957F"
-  DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
-    type: 3}
-  DefaultFont: {fileID: 0}
-  NodeSerializedDataList:
-  - {fileID: 132034557}
-  - {fileID: 132034556}
-  - {fileID: 132034555}
-  - {fileID: 132034554}
-  - {fileID: 132034553}
-  - {fileID: 132034552}
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 419104706}
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 419104706}
-        m_MethodName: CamShake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1571825406}
-        m_MethodName: SetFunctionToConversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &676156510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,218 +2155,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 100
   m_TargetDisplay: 0
---- !u!1 &758951248
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 758951249}
-  - component: {fileID: 758951251}
-  - component: {fileID: 758951250}
-  m_Layer: 0
-  m_Name: AudioOverEvent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &758951249
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758951248}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1271676749}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &758951250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758951248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fba47818f6d73754590b7c43a0da1813, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ifDestroy: 1
-  m_OnAudioOver:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1757070478}
-        m_MethodName: StartConversation
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1081848606}
-          m_ObjectArgumentAssemblyTypeName: DialogueEditor.NPCConversation, Custom.Minigame.Common
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!82 &758951251
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758951248}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4b7de31745f674c299bae3092b2bf262, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!1 &792995317
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 792995318}
-  - component: {fileID: 792995319}
-  m_Layer: 0
-  m_Name: Listener
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &792995318
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792995317}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 338673891}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &792995319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792995317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f368a86397a90a4c96fd40a7ef84193, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OnConversationOver:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1757070478}
-        m_MethodName: StartConversation
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 612335624}
-          m_ObjectArgumentAssemblyTypeName: DialogueEditor.NPCConversation, Custom.Minigame.Common
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &841195481
 GameObject:
   m_ObjectHideFlags: 0
@@ -3158,7 +2243,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841195481}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.87, y: -4.56, z: -15.61}
+  m_LocalPosition: {x: -2.87, y: -3.68, z: -6.11}
   m_LocalScale: {x: 51.89782, y: 1, z: 20}
   m_Children:
   - {fileID: 320947273}
@@ -3393,7 +2478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":82,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF1F\u4F60\u8FD8\u597D\u5417\uFF1F\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":83,\"yPos\":141},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5FD8\u8BB0\u4E4B\u524D\u7684\u90A3\u6B21\u884C\u52A8\u4E86\u5417\u8239\u957F\uFF01\u4F60\u8FD8\u8981\u8FD9\u6837\u81EA\u4EE5\u4E3A\u662F\u5417\uFF1F\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":-65,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF1F\u4F60\u8FD8\u597D\u5417\uFF1F\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-64,\"yPos\":141},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5FD8\u8BB0\u4E4B\u524D\u7684\u90A3\u6B21\u884C\u52A8\u4E86\u5417\u8239\u957F\uFF01\u4F60\u8FD8\u8981\u8FD9\u6837\u81EA\u4EE5\u4E3A\u662F\u5417\uFF1F\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: Andrew
   DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -3599,7 +2684,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 792995319}
+      - m_Target: {fileID: 0}
         m_MethodName: SetFunctionToConversation
         m_Mode: 1
         m_Arguments:
@@ -3613,71 +2698,6 @@ MonoBehaviour:
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
   Icon: {fileID: 4983692595894577325, guid: 8ef2e21faf4756b4e915874080871b65, type: 3}
   Audio: {fileID: 0}
---- !u!1 &1081848604
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1081848605}
-  - component: {fileID: 1081848606}
-  m_Layer: 0
-  m_Name: Conversation5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1081848605
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081848604}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6286297, y: -4.036466, z: 2.6608925}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 319365227}
-  m_Father: {fileID: 1240903346}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1081848606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081848604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":29.5,\"yPos\":20},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\u4F46\u662F\u6211\u597D\u60F3...\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":31.5,\"yPos\":141},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u5FD8\u4E86\u4F60\u7684\u519B\u4EBA\u8EAB\u4EFD\uFF01\u9501\u5B9A\u76EE\u6807\uFF0C\u7136\u540E\u56DE\u5230\u4F60\u4EEC\u5404\u81EA\u7684\u5C97\u4F4D\u4E0A\u53BB\uFF01\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":15,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":34.5,\"yPos\":273},\"ID\":15,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[14,14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":16,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":33.5,\"yPos\":407},\"ID\":16,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u771F\u7684\u8BA9\u4EBA\u60F3\u4E0D\u901A\u3002\\n\",\"parentUIDs\":[15,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":17,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":32.5,\"yPos\":532},\"ID\":17,\"TMPFontGUID\":null,\"Text\":\"\u4ECA\u5929\u5C31\u8FD9\u6837\u5427\u3002\",\"parentUIDs\":[16,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
-  saveVersion: 103
-  DefaultName: Andrew
-  DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
-    type: 3}
-  DefaultFont: {fileID: 0}
-  NodeSerializedDataList:
-  - {fileID: 319365237}
-  - {fileID: 319365236}
-  - {fileID: 319365235}
-  - {fileID: 319365234}
-  - {fileID: 319365233}
-  - {fileID: 319365232}
-  - {fileID: 319365231}
-  - {fileID: 319365230}
-  - {fileID: 319365229}
-  - {fileID: 319365228}
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1114414632
 GameObject:
   m_ObjectHideFlags: 0
@@ -4235,8 +3255,6 @@ Transform:
   - {fileID: 1876604073}
   - {fileID: 1333814344}
   - {fileID: 906940913}
-  - {fileID: 612335623}
-  - {fileID: 1081848605}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4317,38 +3335,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264277697}
   m_CullTransparentMesh: 0
---- !u!1 &1271676748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1271676749}
-  m_Layer: 0
-  m_Name: Conversation4End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1271676749
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271676748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.626457, y: 2.9646304, z: -18.945312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1571825405}
-  - {fileID: 758951249}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278000282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4617,6 +3603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterMove: {fileID: 0}
   MainHUBControl: {fileID: 1634818771}
+  NotebookHUBControl: {fileID: 0}
 --- !u!1 &1333814342
 GameObject:
   m_ObjectHideFlags: 0
@@ -4647,7 +3634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":82,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF0C\u6211\u519B\u6C34\u4E0B600\u7C73\u6DF1\u5904\u63A2\u6D4B\u5230\u5FAE\u5F31\u4FE1\u53F7!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":79,\"yPos\":138},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u662F\u654C\u519B\u6F5C\u8247\u6B8B\u515A\uFF0C\u73B0\u5728\u9A6C\u4E0A\u8FFD\u51FB\uFF0C\u7ACB\u523B\u9501\u5B9A\u5B83\u7684\u4FE1\u53F7\u4F4D\u7F6E\uFF01\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":15,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":84,\"yPos\":269},\"ID\":15,\"TMPFontGUID\":null,\"Text\":\"\u8FD9\u4FDD\u4E0D\u51C6\u5C31\u662F\u4E2A\u9C7C\u5462\uFF0C\u4E0D\u8981\u5927\u60CA\u5C0F\u602A\u3002\",\"parentUIDs\":[14,14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":16,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":87,\"yPos\":409},\"ID\":16,\"TMPFontGUID\":null,\"Text\":\"\u6211\u53EA\u60F3\u65E9\u70B9\u56DE\u5BB6\uFF0C\u6211\u4EEC\u660E\u660E\u5DF2\u7ECF\u5B8C\u6210\u4E86\u4F5C\u6218\u4EFB\u52A1\u4E86...\",\"parentUIDs\":[15,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":17,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":86,\"yPos\":535},\"ID\":17,\"TMPFontGUID\":null,\"Text\":\"\u4ECE\u4E0B\u6F5C\u6DF1\u5EA6\u548C\u4FE1\u53F7\u5F3A\u5EA6\u770B\u7684\u8BDD\uFF0C\u5982\u679C\u662F\u654C\u519B\u6F5C\u8247\uFF0C\u90A3\u4ED6\u7684\u4F53\u91CF\u53EF\u80FD\u8D85\u51FA\u6211\u4EEC\u4E0D\u5C11\u3002\",\"parentUIDs\":[16,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":18,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":87,\"yPos\":649},\"ID\":18,\"TMPFontGUID\":null,\"Text\":\"\u8239\u957F\uFF0C\u6211\u4EEC\u771F\u7684\u8981\u8FFD\u51FB\u5417\uFF1F\u6211\u4EEC\u5DF2\u7ECF\u51FA\u6D77\u4E00\u4E2A\u6708\u4E86\uFF0C\u6211\u7B2C\u4E00\u6B21\u79BB\u5BB6\u8FD9\u4E48\u4E45...\\n\",\"parentUIDs\":[17,17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":19,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":85,\"yPos\":769},\"ID\":19,\"TMPFontGUID\":null,\"Text\":\"\u4E00\u5B9A\u8981\u8FFD\u51FB\uFF0C\u4E5F\u5FC5\u987B\u8981\u8FFD\u51FB\uFF01\",\"parentUIDs\":[18,18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":20,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":86,\"yPos\":900},\"ID\":20,\"TMPFontGUID\":null,\"Text\":\"\u6211\u89C9\u5F97\u8FD9\u4E0D\u5728\u6211\u4EEC\u7684\u4EFB\u52A1\u76EE\u6807\u4E4B\u5185\uFF0C\u6211\u4EEC\u505A\u4E86\u5145\u5206\u7684\u6218\u524D\u7814\u7A76\uFF0C\u5E76\u6CA1\u6709\u9884\u4F30\u9519\u8BEF\u8FD9\u7247\u6D77\u57DF\u7684\u654C\u519B\u6570\u91CF\\n\",\"parentUIDs\":[19,19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":21,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":85,\"yPos\":1024},\"ID\":21,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5FD8\u8BB0\u4E4B\u524D\u7684\u90A3\u6B21\u884C\u52A8\u4E86\u5417\uFF1F\\n\",\"parentUIDs\":[20,20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":-50.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF0C\u6211\u519B\u6C34\u4E0B600\u7C73\u6DF1\u5904\u63A2\u6D4B\u5230\u5FAE\u5F31\u4FE1\u53F7!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-53.5,\"yPos\":138},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u662F\u654C\u519B\u6F5C\u8247\u6B8B\u515A\uFF0C\u73B0\u5728\u9A6C\u4E0A\u8FFD\u51FB\uFF0C\u7ACB\u523B\u9501\u5B9A\u5B83\u7684\u4FE1\u53F7\u4F4D\u7F6E\uFF01\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":15,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-48.5,\"yPos\":269},\"ID\":15,\"TMPFontGUID\":null,\"Text\":\"\u8FD9\u4FDD\u4E0D\u51C6\u5C31\u662F\u4E2A\u9C7C\u5462\uFF0C\u4E0D\u8981\u5927\u60CA\u5C0F\u602A\u3002\",\"parentUIDs\":[14,14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":16,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-45.5,\"yPos\":409},\"ID\":16,\"TMPFontGUID\":null,\"Text\":\"\u6211\u53EA\u60F3\u65E9\u70B9\u56DE\u5BB6\uFF0C\u6211\u4EEC\u660E\u660E\u5DF2\u7ECF\u5B8C\u6210\u4E86\u4F5C\u6218\u4EFB\u52A1\u4E86...\",\"parentUIDs\":[15,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":17,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-46.5,\"yPos\":535},\"ID\":17,\"TMPFontGUID\":null,\"Text\":\"\u4ECE\u4E0B\u6F5C\u6DF1\u5EA6\u548C\u4FE1\u53F7\u5F3A\u5EA6\u770B\u7684\u8BDD\uFF0C\u5982\u679C\u662F\u654C\u519B\u6F5C\u8247\uFF0C\u90A3\u4ED6\u7684\u4F53\u91CF\u53EF\u80FD\u8D85\u51FA\u6211\u4EEC\u4E0D\u5C11\u3002\",\"parentUIDs\":[16,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":18,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-45.5,\"yPos\":649},\"ID\":18,\"TMPFontGUID\":null,\"Text\":\"\u8239\u957F\uFF0C\u6211\u4EEC\u771F\u7684\u8981\u8FFD\u51FB\u5417\uFF1F\u6211\u4EEC\u5DF2\u7ECF\u51FA\u6D77\u4E00\u4E2A\u6708\u4E86\uFF0C\u6211\u7B2C\u4E00\u6B21\u79BB\u5BB6\u8FD9\u4E48\u4E45...\\n\",\"parentUIDs\":[17,17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":19,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-47.5,\"yPos\":769},\"ID\":19,\"TMPFontGUID\":null,\"Text\":\"\u4E00\u5B9A\u8981\u8FFD\u51FB\uFF0C\u4E5F\u5FC5\u987B\u8981\u8FFD\u51FB\uFF01\",\"parentUIDs\":[18,18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":20,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-46.5,\"yPos\":900},\"ID\":20,\"TMPFontGUID\":null,\"Text\":\"\u6211\u89C9\u5F97\u8FD9\u4E0D\u5728\u6211\u4EEC\u7684\u4EFB\u52A1\u76EE\u6807\u4E4B\u5185\uFF0C\u6211\u4EEC\u505A\u4E86\u5145\u5206\u7684\u6218\u524D\u7814\u7A76\uFF0C\u5E76\u6CA1\u6709\u9884\u4F30\u9519\u8BEF\u8FD9\u7247\u6D77\u57DF\u7684\u654C\u519B\u6570\u91CF\\n\",\"parentUIDs\":[19,19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":21,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-47.5,\"yPos\":1024},\"ID\":21,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5FD8\u8BB0\u4E4B\u524D\u7684\u90A3\u6B21\u884C\u52A8\u4E86\u5417\uFF1F\\n\",\"parentUIDs\":[20,20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: Andrew
   DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -4670,40 +3657,7 @@ MonoBehaviour:
   - {fileID: 1785438947}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 419104706}
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 419104706}
-        m_MethodName: CamShake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 676156511}
-        m_MethodName: SetFunctionToConversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1333814344
 Transform:
   m_ObjectHideFlags: 0
@@ -4719,7 +3673,7 @@ Transform:
   m_Father: {fileID: 1240903346}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1456451974
+--- !u!1 &1546742737
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4727,137 +3681,125 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1456451975}
-  - component: {fileID: 1456451976}
-  m_Layer: 0
-  m_Name: andrew
+  - component: {fileID: 1546742738}
+  - component: {fileID: 1546742739}
+  m_Layer: 5
+  m_Name: background_music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1456451975
+--- !u!4 &1546742738
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456451974}
+  m_GameObject: {fileID: 1546742737}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.23, y: -2.5, z: -0.22}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 454149113}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1456451976
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456451974}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 436416c9065594d57a77f25d32c23e8a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7251182919307793337, guid: 7286d38ef0c43d943b11fbb9cfbe1dcd,
-    type: 3}
-  m_Color: {r: 1, g: 0.7158598, b: 0.61960787, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.5, y: 8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &1571825404
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1571825405}
-  - component: {fileID: 1571825406}
-  m_Layer: 0
-  m_Name: Listener
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1571825405
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571825404}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8445971, y: 1.8445972, z: 1.8445972}
   m_Children: []
-  m_Father: {fileID: 1271676749}
-  m_RootOrder: 0
+  m_Father: {fileID: 1727168873}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1571825406
-MonoBehaviour:
+--- !u!82 &1546742739
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571825404}
+  m_GameObject: {fileID: 1546742737}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f368a86397a90a4c96fd40a7ef84193, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OnConversationOver:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 758951250}
-        m_MethodName: BeginAudioPlay
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7bcbd7afd99584508b667093b756ffb2, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1634818771 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1634818771, guid: 2c98fd2cc0413fe4c81393f98bccf096,
@@ -4870,146 +3812,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c481c6b05beb7e42b31c61e6feede81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1696000158
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1696000159}
-  - component: {fileID: 1696000160}
-  - component: {fileID: 1696000162}
-  - component: {fileID: 1696000161}
-  m_Layer: 0
-  m_Name: chief
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1696000159
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696000158}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.44, y: -1.23, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 454149113}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1696000160
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696000158}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 436416c9065594d57a77f25d32c23e8a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -7861918066902849445, guid: 25318a95935a5f349a3eed4bcc287949,
-    type: 3}
-  m_Color: {r: 0.8606076, g: 0.6839622, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.8, y: 8.4}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!114 &1696000161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696000158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ef98d047c6cc8458176a3e8e78134f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OnTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1696000160}
-        m_MethodName: set_flipX
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1696000162}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_OnTriggerExit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnTriggerInteract:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!65 &1696000162
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696000158}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 10, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1696951224
 GameObject:
   m_ObjectHideFlags: 0
@@ -5067,6 +3869,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!224 &1727168873 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7175985430279528844, guid: 2c98fd2cc0413fe4c81393f98bccf096,
+    type: 3}
+  m_PrefabInstance: {fileID: 7175985431633215582}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1757070478 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6163669243699851204, guid: 2c98fd2cc0413fe4c81393f98bccf096,
@@ -5639,7 +4447,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815462837}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.8, y: 0, z: -10}
+  m_LocalPosition: {x: -17.8, y: 0.8799999, z: -0.5000005}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 419104701}
@@ -5722,7 +4530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 18
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":82,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8FD9\u6B21\u4F5C\u6218\u975E\u5E38\u6210\u529F\uFF0C\u5404\u4F4D\u53EF\u4EE5\u5598\u53E3\u6C14\u4E86\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":84,\"yPos\":143},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u60A8\u7684\u6307\u6325\u81F3\u5173\u91CD\u8981\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":15,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":83,\"yPos\":272},\"ID\":15,\"TMPFontGUID\":null,\"Text\":\"\u654C\u4EBA\u5B8C\u5168\u90FD\u6CA1\u6709\u8FD8\u624B\uFF0C\u6F5C\u8247\u5DE5\u4F5C\u771F\u7684\u662F\u65E0\u804A\u900F\u9876\uFF0C\u8DDF\u6211\u4E4B\u524D\u7684\u4EFB\u52A1\u5B8C\u5168\u4E0D\u5728\u4E00\u4E2A\u96BE\u5EA6\",\"parentUIDs\":[14,14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":16,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":86,\"yPos\":409},\"ID\":16,\"TMPFontGUID\":null,\"Text\":\"\u95ED\u5634barkley,\u4F60\u4E4B\u524D\u4E0D\u8FC7\u662F\u4E00\u4E2A\u88AB\u4EBA\u4E70\u6765\u5E72\u6D3B\u7684\u4F63\u5175\",\"parentUIDs\":[15,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":17,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":85,\"yPos\":534},\"ID\":17,\"TMPFontGUID\":null,\"Text\":\"\u90A3\u6211\u4EEC\u53EF\u4EE5\u56DE\u5BB6\u4E86\u5417\u8239\u957F\uFF1F\",\"parentUIDs\":[16,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Andrew\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":-65,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8FD9\u6B21\u4F5C\u6218\u975E\u5E38\u6210\u529F\uFF0C\u5404\u4F4D\u53EF\u4EE5\u5598\u53E3\u6C14\u4E86\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-63,\"yPos\":143},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u60A8\u7684\u6307\u6325\u81F3\u5173\u91CD\u8981\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":15,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-64,\"yPos\":272},\"ID\":15,\"TMPFontGUID\":null,\"Text\":\"\u654C\u4EBA\u5B8C\u5168\u90FD\u6CA1\u6709\u8FD8\u624B\uFF0C\u6F5C\u8247\u5DE5\u4F5C\u771F\u7684\u662F\u65E0\u804A\u900F\u9876\uFF0C\u8DDF\u6211\u4E4B\u524D\u7684\u4EFB\u52A1\u5B8C\u5168\u4E0D\u5728\u4E00\u4E2A\u96BE\u5EA6\",\"parentUIDs\":[14,14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":16,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-61,\"yPos\":409},\"ID\":16,\"TMPFontGUID\":null,\"Text\":\"\u95ED\u5634barkley,\u4F60\u4E4B\u524D\u4E0D\u8FC7\u662F\u4E00\u4E2A\u88AB\u4EBA\u4E70\u6765\u5E72\u6D3B\u7684\u4F63\u5175\",\"parentUIDs\":[15,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":17,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-62,\"yPos\":534},\"ID\":17,\"TMPFontGUID\":null,\"Text\":\"\u90A3\u6211\u4EEC\u53EF\u4EE5\u56DE\u5BB6\u4E86\u5417\u8239\u957F\uFF1F\",\"parentUIDs\":[16,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Andrew\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: Andrew
   DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -5741,40 +4549,7 @@ MonoBehaviour:
   - {fileID: 1114414633}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 419104706}
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 419104706}
-        m_MethodName: CamShake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1208651803}
-        m_MethodName: SetFunctionToConversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1876604073
 Transform:
   m_ObjectHideFlags: 0
