@@ -8,6 +8,7 @@ public class SwitchSceneControl : MonoBehaviour {
 
     private void OnTriggerEnter(Collider roomEdge)
     {
+        Debug.Log("OnTriggerEnter " + roomName);
         if (roomEdge.CompareTag("Player"))
             SceneManager.LoadScene(roomName);
     }
