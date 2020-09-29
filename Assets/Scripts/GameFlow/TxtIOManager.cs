@@ -7,17 +7,64 @@ using System.Text;
 public class TxtIOManager : MonoBehaviour
 {
     //单例
-
-    private string scenePath = "\\CurrentScene.txt"; 
-    private string consPath = "\\Conditions.txt"; 
+    public static TxtIOManager Instance { get; private set; }
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            GameObject.Destroy(this.gameObject);
+        }
+        Instance = this;
+    }
+    void OnDestroy()
+    {
+        Instance = null;
+    }
+    private static string scenePath = "/CurrentScene.txt"; 
+    private static string consPath = "/Conditions.txt"; 
     //存档文件一共两个 一个是保存场景的CurrentScene.txt
     //一个是保存bool数组的Conditions.txt
-    public string sceneName;
+    public int sceneIndex;
     public bool[] conditions;
 
     //获取存储的场景
+    public static void GetSavedSceneIndex()
+    {
+        string str = File.ReadAllText(scenePath, Encoding.UTF8);
+        if(str.Contains("0"))
+        {
+            Instance.sceneIndex = 0;
+        }
+        else if(str.Contains("1"))
+        {
+            Instance.sceneIndex = 1;
+        }
+        else if(str.Contains("2"))
+        {
+            Instance.sceneIndex = 2;
+        }
+        else if(str.Contains("3"))
+        {
+            Instance.sceneIndex = 3;
+        }
+        else if(str.Contains("4"))
+        {
+            Instance.sceneIndex = 4;
+        }
+    }
     //获取存储的条件
-    //保存存档 (切换场景自动保存)
+    public static void GetSavedConditions()
+    {
+        string[] strs = File.ReadAllLines(consPath, Encoding.UTF8);
+        Instance.conditions = ConvertStringsToBools(strs);   
+    }
+    //保存存档
+    public static void SaveFiles()
+    {
+        File.WriteAllText(scenePath, Instance.sceneIndex.ToString(), Encoding.UTF8);
+        File.WriteAllText(consPath, ConvertBoolsToString(Instance.conditions), Encoding.UTF8);
+    }
+
 
     //读取txt
     //string[] strs = File.ReadAllLines(path, Encoding.UTF8);
@@ -25,7 +72,7 @@ public class TxtIOManager : MonoBehaviour
     //File.WriteAllText(path, str, Encoding.UTF8);
     
     //将数组转化为string
-    public string ConvertBoolsToString(bool[] bools)
+    public static string ConvertBoolsToString(bool[] bools)
     {
         if(bools == null)
         {
@@ -46,7 +93,7 @@ public class TxtIOManager : MonoBehaviour
     }
 
     //将string转化为数组
-    public bool[] ConvertStringsToBools(string[] strs)
+    public static bool[] ConvertStringsToBools(string[] strs)
     {
         if(strs == null)
         {
@@ -77,22 +124,26 @@ public class TxtIOManager : MonoBehaviour
     }
 
     void Start() {
-        scenePath = Application.dataPath + scenePath;
-        consPath = Application.dataPath + consPath;
+        scenePath = Application.persistentDataPath + scenePath;
+        consPath = Application.persistentDataPath + consPath;
     }
 
-    void OnGUI() 
+    //测试用
+    /*void OnGUI() 
     {
         if (GUI.Button(new Rect(20, 40, 100, 50), "save text"))
         {
             Debug.Log(consPath);
-            File.WriteAllText(consPath, ConvertBoolsToString(conditions), Encoding.UTF8);
+            SaveFiles();
         }
         if (GUI.Button(new Rect(20, 100, 100, 50), "read text"))
         {
-            string[] strs = File.ReadAllLines(consPath, Encoding.UTF8);
-            conditions = ConvertStringsToBools(strs);
+            GetSavedConditions();
         }
-
-    } 
+        GUI.TextArea(new Rect(20, 160, 100, 500), consPath);
+        for (int i = 0; i < conditions.Length; i++)
+        {
+            conditions[i] = GUI.Toggle(new Rect(200, 40 + i * 30, 100, 20), conditions[i], i.ToString() + " : ");
+        }
+    } */
 }
