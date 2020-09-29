@@ -41,6 +41,9 @@ public class CharacterMove : MonoBehaviour
             SceneManager.LoadScene("engine-room");
         else if(collision.gameObject.name == "CentralRoomCubeLeft")
             SceneManager.LoadScene("bedroom");
+        else if(collision.gameObject.name == "BedroomsCubeLeft")
+            SceneManager.LoadScene(1);
+
 
     }
 }

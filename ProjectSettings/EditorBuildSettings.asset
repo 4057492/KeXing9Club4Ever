@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test/engine-room.unity
     guid: ab0b6ed978289450eafd77469f074ca7
+  - enabled: 1
+    path: Assets/Scenes/Test/bedrooms.unity
+    guid: 01f7ee69da7b0a54a99bd9bc97b41dc4
   m_configObjects: {}
