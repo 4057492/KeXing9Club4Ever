@@ -34,12 +34,12 @@ public class CharacterMove : MonoBehaviour
         else if(collision.gameObject.name == "BedroomCubeLeft")
             SceneManager.LoadScene("FirstScene");
         else if(collision.gameObject.name == "BedroomCubeRight")
-            SceneManager.LoadScene("cnetral-room");
+            SceneManager.LoadScene(4);
         else if(collision.gameObject.name == "EgineRoomCube")
-            SceneManager.LoadScene("cnetral-room");
-        else if(collision.gameObject.name == "CentralRoomRight")
+            SceneManager.LoadScene(4);
+        else if(collision.gameObject.name == "CentralroomCubeRight")
             SceneManager.LoadScene("engine-room");
-        else if(collision.gameObject.name == "CentralRoomLeft")
+        else if(collision.gameObject.name == "CentralroomCubeLeft")
             SceneManager.LoadScene("bedroom");
 
     }
