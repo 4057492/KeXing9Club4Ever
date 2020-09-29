@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Test/Demo.unity
     guid: 15768cad4795cb34e8fba8de5ddb9af1
   - enabled: 1
-    path: Assets/Scenes/Test/FirstScene.unity
+    path: Assets/Scenes/Test/listen-room.unity
     guid: 211d049e5ff59894b8db4d45f1a3548a
   - enabled: 1
     path: Assets/Scenes/Test/bedroom.unity
@@ -31,8 +31,5 @@ EditorBuildSettings:
     guid: 20b2e9f13a3f2438e90b42e373646df3
   - enabled: 1
     path: Assets/Scenes/Test/engine-room.unity
-    guid: 2dbd9552d44d64e12ad5d300af61b93e
-  - enabled: 1
-    path: Assets/Scenes/Test/centralroom.unity
-    guid: 732e7bee4688b0c4a934a5d0be08cbed
+    guid: ab0b6ed978289450eafd77469f074ca7
   m_configObjects: {}
