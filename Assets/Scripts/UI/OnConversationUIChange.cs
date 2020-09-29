@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
+using UnityEngine.SceneManagement;
 
 public class OnConversationUIChange : MonoBehaviour
 {
+    public CharacterMove characterMove;
     public SetMultiGameobjecsActive MainHUBControl;
+    public SetMultiGameobjecsActive NotebookHUBControl;
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -24,13 +27,26 @@ public class OnConversationUIChange : MonoBehaviour
         {
             MainHUBControl.SetTargetsActive(false);
         }
+        if(characterMove)
+        {
+            characterMove.StopMove();
+        }
+        if(NotebookHUBControl)
+        {
+            NotebookHUBControl.SetTargetsActive(false);
+        }
     }
 
     void OnConversationEnd()
     {
-        if (MainHUBControl)
+        //Scene scene = SceneManager.GetActiveScene ();
+      //  GUILayout.Label ("当前场景: " + scene.name);
+        //if(scene.name != "FirstScene")
         {
-            MainHUBControl.SetTargetsActive(true);
+            if (MainHUBControl)
+            {
+                MainHUBControl.SetTargetsActive(true);
+            }
         }
     }
 

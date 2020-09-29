@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterMove : MonoBehaviour
 {
@@ -24,5 +25,22 @@ public class CharacterMove : MonoBehaviour
     public void StopMove()
     {
         characterControl.moveDir = 0;
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.name == "LiseningRoomRight")
+            SceneManager.LoadScene("bedroom");
+        else if(collision.gameObject.name == "BedroomCubeLeft")
+            SceneManager.LoadScene("FirstScene");
+        else if(collision.gameObject.name == "BedroomCubeRight")
+            SceneManager.LoadScene("cnetral-room");
+        else if(collision.gameObject.name == "EgineRoomCube")
+            SceneManager.LoadScene("cnetral-room");
+        else if(collision.gameObject.name == "CentralRoomRight")
+            SceneManager.LoadScene("engine-room");
+        else if(collision.gameObject.name == "CentralRoomLeft")
+            SceneManager.LoadScene("bedroom");
+
     }
 }

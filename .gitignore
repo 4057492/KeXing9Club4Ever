@@ -64,7 +64,8 @@ ProjectSettings/ProjectVersion.txt
 Packages/manifest.json
 Packages/manifest.json
 
-#projectversion
+# projectversion
 ProjectSettings/ProjectVersion.txt
 
-
+# ds_store
+**/.DS_Store

@@ -17,7 +17,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Test/WalkTest.unity
     guid: e70d078ca61f5294db0ddc244a2c8f27
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test/Demo.unity
     guid: 15768cad4795cb34e8fba8de5ddb9af1
+  - enabled: 1
+    path: Assets/Scenes/Test/FirstScene.unity
+    guid: 211d049e5ff59894b8db4d45f1a3548a
+  - enabled: 1
+    path: Assets/Scenes/Test/bedroom.unity
+    guid: 26b8017fbf0044f84bc010214de96a87
+  - enabled: 1
+    path: Assets/Scenes/Test/central-room.unity
+    guid: 20b2e9f13a3f2438e90b42e373646df3
+  - enabled: 1
+    path: Assets/Scenes/Test/engine-room.unity
+    guid: 2dbd9552d44d64e12ad5d300af61b93e
   m_configObjects: {}

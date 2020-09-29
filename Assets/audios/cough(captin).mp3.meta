@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: 54bcf44134a79e3409c9b54991ac4585
-=======
-guid: 728fa6067d97c4feea05fc52fd9bca7f
->>>>>>> 78b16a1a925984d01f778188e30dae69beda407e
-=======
-guid: 728fa6067d97c4feea05fc52fd9bca7f
->>>>>>> 78b16a1a925984d01f778188e30dae69beda407e
-=======
-guid: 728fa6067d97c4feea05fc52fd9bca7f
->>>>>>> d79a980221cd326eb31c98ea989b43916613a767
+guid: 5987d328f6b794218ac3296c364c3cdd
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
