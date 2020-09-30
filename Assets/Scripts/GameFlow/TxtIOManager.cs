@@ -24,45 +24,55 @@ public class TxtIOManager : MonoBehaviour
     private static string consPath = "/Conditions.txt"; 
     //存档文件一共两个 一个是保存场景的CurrentScene.txt
     //一个是保存bool数组的Conditions.txt
+
+    //希望要保存的场景index 在buildsetting中查看
     public int sceneIndex;
+    public int defaultScene;
     public bool[] conditions;
 
     //获取存储的场景
-    public static void GetSavedSceneIndex()
+    public int GetSavedSceneIndex()
     {
         string str = File.ReadAllText(scenePath, Encoding.UTF8);
         if(str.Contains("0"))
         {
-            Instance.sceneIndex = 0;
+            return 0;
         }
         else if(str.Contains("1"))
         {
-            Instance.sceneIndex = 1;
+            return 1;
         }
         else if(str.Contains("2"))
         {
-            Instance.sceneIndex = 2;
+            return 2;
         }
         else if(str.Contains("3"))
         {
-            Instance.sceneIndex = 3;
+            return 3;
         }
         else if(str.Contains("4"))
         {
-            Instance.sceneIndex = 4;
+            return 4;
+        }
+        else
+        {
+            //没有找到存档文件
+            return defaultScene;
         }
     }
     //获取存储的条件
-    public static void GetSavedConditions()
+    public void GetSavedConditions()
     {
         string[] strs = File.ReadAllLines(consPath, Encoding.UTF8);
         Instance.conditions = ConvertStringsToBools(strs);   
     }
     //保存存档
-    public static void SaveFiles()
+    public void SaveFiles()
     {
-        File.WriteAllText(scenePath, Instance.sceneIndex.ToString(), Encoding.UTF8);
-        File.WriteAllText(consPath, ConvertBoolsToString(Instance.conditions), Encoding.UTF8);
+        Debug.Log(scenePath);
+        Debug.Log(consPath);
+        File.WriteAllText(scenePath, sceneIndex.ToString(), Encoding.UTF8);
+        File.WriteAllText(consPath, ConvertBoolsToString(conditions), Encoding.UTF8);
     }
 
 
@@ -106,7 +116,7 @@ public class TxtIOManager : MonoBehaviour
         List<bool> boolList = new List<bool>();
         foreach(string str in strs)
         {
-            Debug.Log(str);
+            //Debug.Log(str);
             if(str.Contains("1"))
             {
                 boolList.Add(true);
