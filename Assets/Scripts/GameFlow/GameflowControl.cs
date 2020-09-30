@@ -6,7 +6,12 @@ using Custom.Log;
 
 public class GameflowControl : MonoBehaviour
 {
+    public int mainMenuScene;
     public int destinationSceneName;
+    public void GotoMainMenu()
+    {
+        SceneManager.LoadScene(mainMenuScene);
+    }
     public void ChangingScene()
     {
         //Debugger.Log("Changing to : {0} ", destinationSceneName);
