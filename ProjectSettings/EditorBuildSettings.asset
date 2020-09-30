@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: b2fb4e7a12932fa4a9afb1dce56e17df
   - enabled: 0
@@ -20,19 +20,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FirstDaySences/Demo.unity
     guid: 15768cad4795cb34e8fba8de5ddb9af1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstDaySences/listen-room.unity
     guid: 211d049e5ff59894b8db4d45f1a3548a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstDaySences/bedroom.unity
     guid: 26b8017fbf0044f84bc010214de96a87
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstDaySences/central-room.unity
     guid: 20b2e9f13a3f2438e90b42e373646df3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstDaySences/engine-room.unity
     guid: ab0b6ed978289450eafd77469f074ca7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstDaySences/bedrooms.unity
     guid: 01f7ee69da7b0a54a99bd9bc97b41dc4
+  - enabled: 1
+    path: Assets/Scenes/StartSence/listen-room0.unity
+    guid: 1eb86912bae496e4084b45359bab718d
   m_configObjects: {}
