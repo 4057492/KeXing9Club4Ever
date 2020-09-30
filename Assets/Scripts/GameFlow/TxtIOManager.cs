@@ -20,8 +20,8 @@ public class TxtIOManager : MonoBehaviour
     {
         Instance = null;
     }
-    private static string scenePath = "/CurrentScene.txt"; 
-    private static string consPath = "/Conditions.txt"; 
+    public  string scenePath = "/CurrentScene.txt"; 
+    public  string consPath = "/Conditions.txt"; 
     //存档文件一共两个 一个是保存场景的CurrentScene.txt
     //一个是保存bool数组的Conditions.txt
 
