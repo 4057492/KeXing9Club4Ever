@@ -17,7 +17,7 @@ public class GameflowControl : MonoBehaviour
         //Debugger.Log("Changing to : {0} ", dSceneName);
         SceneManager.LoadScene(dSceneName);
     }
-    public static void ChangingSceneByIndex(int index)
+    public void ChangingSceneByIndex(int index)
     {
         SceneManager.LoadScene(index);
     }

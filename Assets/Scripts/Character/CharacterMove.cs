@@ -81,6 +81,10 @@ public class CharacterMove : MonoBehaviour
         }
         else if (collision.gameObject.name == "BedroomCub9")
         {
+            GameObject obj = GameObject.Find("Button");
+            obj.SetActive(false);
+            GameObject obj1 = GameObject.Find("Button1");
+            obj1.SetActive(false);
             GameObject name = GameObject.Find("character");
             name.transform.Translate(-180,0,0);
         }
