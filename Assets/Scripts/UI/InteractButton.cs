@@ -5,6 +5,7 @@ using UnityEngine.Events;
 using System;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class InteractButton : MonoBehaviour
 {
@@ -63,5 +64,13 @@ public class InteractButton : MonoBehaviour
         {
             InteractTarget.InteractInvoke();
         }
+    }
+
+    public void Operate(GameObject obj)
+    {
+        string name = obj.name;
+        Debug.Log("Operate with " + name);
+        if (name == "bedroom_switch_scene_trigger")
+            SceneManager.LoadScene("listen-room");
     }
 }
