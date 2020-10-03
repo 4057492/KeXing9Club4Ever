@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 namespace DialogueEditor
 {
     public class ConversationManager : MonoBehaviour
@@ -82,7 +82,7 @@ namespace DialogueEditor
         // Selection options
         private int m_currentSelectedIndex;
 
-
+        static int m_currentSpeechIndex; //目前对话是不是最后一段，表示是
         //--------------------------------------
         // Awake, Start, Destroy
         //--------------------------------------
@@ -203,6 +203,7 @@ namespace DialogueEditor
                             {
                                 EndConversation();
                                 return;
+
                             }
 
                             SpeechNode nextAction = m_selectedOption.Dialogue;
@@ -344,12 +345,8 @@ namespace DialogueEditor
         public void EndConversation()
         {
             SetState(eState.TransitioningDialogueOff);
-
             if (OnConversationEnded != null)
                 OnConversationEnded.Invoke();
-            //Object  conversition1 = GameObject.Find ("Conversation3");
-            //NPCConversation temp = (NPCConversation)conversition1;
-            //StartConversation(temp);
         }
 
 
@@ -632,5 +629,6 @@ namespace DialogueEditor
             m_uiOptions[m_currentSelectedIndex].SetHovering(false);
             m_currentSelectedIndex = -1;
         }
+
     }
 }
