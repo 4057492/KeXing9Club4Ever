@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
-using UnityEngine.SceneManagement;
 
 public class OnConversationUIChange : MonoBehaviour
 {
@@ -39,14 +38,9 @@ public class OnConversationUIChange : MonoBehaviour
 
     void OnConversationEnd()
     {
-        //Scene scene = SceneManager.GetActiveScene ();
-      //  GUILayout.Label ("当前场景: " + scene.name);
-        //if(scene.name != "FirstScene")
+        if (MainHUBControl)
         {
-            if (MainHUBControl)
-            {
-                MainHUBControl.SetTargetsActive(true);
-            }
+            MainHUBControl.SetTargetsActive(true);
         }
     }
 
