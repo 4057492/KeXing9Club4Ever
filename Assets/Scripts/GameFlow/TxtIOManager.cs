@@ -20,59 +20,64 @@ public class TxtIOManager : MonoBehaviour
     {
         Instance = null;
     }
+    //是保存场景的CurrentScene.txt
     public  string scenePath = "/CurrentScene.txt"; 
-    public  string consPath = "/Conditions.txt"; 
-    //存档文件一共两个 一个是保存场景的CurrentScene.txt
-    //一个是保存bool数组的Conditions.txt
+    //保存bool数组的Conditions.txt(代表当前active的需要保存的gameobject)
+    public  string consPath = "/Conditions.txt";
+    //保存character的position的Position.txt
+    public string posPath = "/Position.txt";
 
     //希望要保存的场景index 在buildsetting中查看
     public int sceneIndex;
     public int defaultScene;
     public bool[] conditions;
+    public Vector3 pos;
 
     //获取存储的场景
     public int GetSavedSceneIndex()
     {
         string str = File.ReadAllText(scenePath, Encoding.UTF8);
-        if(str.Contains("0"))
+        if(str.Equals(string.Empty))
         {
-            return 0;
-        }
-        else if(str.Contains("1"))
-        {
-            return 1;
-        }
-        else if(str.Contains("2"))
-        {
-            return 2;
-        }
-        else if(str.Contains("3"))
-        {
-            return 3;
-        }
-        else if(str.Contains("4"))
-        {
-            return 4;
-        }
-        else
-        {
-            //没有找到存档文件
             return defaultScene;
         }
+        float temp = float.Parse(str);
+        return (int)temp;
     }
     //获取存储的条件
-    public void GetSavedConditions()
+    public bool[] GetSavedConditions()
     {
         string[] strs = File.ReadAllLines(consPath, Encoding.UTF8);
-        Instance.conditions = ConvertStringsToBools(strs);   
+        Instance.conditions = ConvertStringsToBools(strs);
+        return Instance.conditions;
     }
+    //获取存储的位置
+    public Vector3 GetSavedPosition()
+    {
+        string[] strs = File.ReadAllLines(posPath, Encoding.UTF8);
+        Instance.pos = ConvertStringsToVector3(strs);
+        return Instance.pos;
+    }
+    
     //保存存档
     public void SaveFiles()
     {
         Debug.Log(scenePath);
         Debug.Log(consPath);
+        Debug.Log(posPath);
         File.WriteAllText(scenePath, sceneIndex.ToString(), Encoding.UTF8);
         File.WriteAllText(consPath, ConvertBoolsToString(conditions), Encoding.UTF8);
+        File.WriteAllText(posPath, ConvertVector3ToString(pos), Encoding.UTF8);
+    }
+    //保存新游戏存档
+    public void NewFiles()
+    {
+        Debug.Log(scenePath);
+        Debug.Log(consPath);
+        Debug.Log(posPath);
+        File.WriteAllText(scenePath, defaultScene.ToString(), Encoding.UTF8);
+        File.WriteAllText(consPath, "", Encoding.UTF8);
+        File.WriteAllText(posPath, "", Encoding.UTF8);
     }
 
 
@@ -132,10 +137,45 @@ public class TxtIOManager : MonoBehaviour
         }
         return boolList.ToArray();
     }
-
+    //将vector3转换为string
+    public static string ConvertVector3ToString(Vector3 vec)
+    {
+        if(vec == null)
+        {
+            return null;
+        }
+        string result = "";
+        
+        result = System.String.Concat(result,vec.x.ToString());
+        result = System.String.Concat(result,"\n");
+        result = System.String.Concat(result,vec.y.ToString());
+        result = System.String.Concat(result,"\n");
+        result = System.String.Concat(result,vec.z.ToString());
+        result = System.String.Concat(result,"\n");
+        
+        return result;
+    }
+    //将string转化为vector3
+    public static Vector3 ConvertStringsToVector3(string[] strs)
+    {
+        if(strs == null)
+        {
+            return Vector3.zero;
+        }
+        if(strs.Length == 0)
+        {
+            return Vector3.zero;
+        }
+        Vector3 result = Vector3.zero;
+        result.x = float.Parse(strs[0]);
+        result.y = float.Parse(strs[1]);
+        result.z = float.Parse(strs[2]);
+        return result;
+    }
     void Start() {
         scenePath = Application.persistentDataPath + scenePath;
         consPath = Application.persistentDataPath + consPath;
+        posPath = Application.persistentDataPath + posPath;
     }
 
     //测试用

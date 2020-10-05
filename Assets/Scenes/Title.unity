@@ -617,6 +617,7 @@ GameObject:
   - component: {fileID: 638163602}
   - component: {fileID: 638163601}
   - component: {fileID: 638163600}
+  - component: {fileID: 638163603}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -734,6 +735,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638163598}
   m_CullTransparentMesh: 0
+--- !u!114 &638163603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638163598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40173eecdeb9758409066c8c52cc6bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &916883558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,8 +1196,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 238803902}
-        m_MethodName: SaveFiles
+      - m_Target: {fileID: 5071076226390882373}
+        m_MethodName: NewFiles
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1195,8 +1208,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 238803902}
-        m_MethodName: ChangingScene
-        m_Mode: 1
+        m_MethodName: ChangingSceneByIndex
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1310,3 +1323,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60b6a8cc0f233b8498dd64e6a9abc310, type: 3}
+--- !u!114 &5071076226390882373 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5071076226153522052, guid: 60b6a8cc0f233b8498dd64e6a9abc310,
+    type: 3}
+  m_PrefabInstance: {fileID: 5071076226390882372}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f0c047690909a4d882e11701bd71e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

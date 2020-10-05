@@ -34,14 +34,14 @@ public class GameflowControl : MonoBehaviour
     }
 
     //保存存档
-    public void SaveFiles()
-    {
-        TxtIOManager.Instance.SaveFiles();
-    }
+    // public void SaveFiles()
+    // {
+    //     TxtIOManager.Instance.SaveFiles();
+    // }
 
     //读取存档 目前只把txtiomanager里的bool数组用存档覆盖了
-    public void ReadFiles()
-    {
-        TxtIOManager.Instance.GetSavedConditions();
-    }
+    // public void ReadFiles()
+    // {
+    //     TxtIOManager.Instance.GetSavedConditions();
+    // }
 }
