@@ -178,11 +178,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "   It is during our darkest moments that we must focus to see the light.\n                                                                                          
-    Aristotle Onassis\n"
+  m_text: "the farther backward you can look,the farther forward you are likely to
+    see.\n\u53CD\u7701\u624D\u80FD\u770B\u6E05\u524D\u65B9"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 13fbc20fcd6a4d74b9b02ed9513d21dc, type: 2}
-  m_sharedMaterial: {fileID: 6168630465215908998, guid: 13fbc20fcd6a4d74b9b02ed9513d21dc,
+  m_fontAsset: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
+  m_sharedMaterial: {fileID: -4585795622322163734, guid: f90eb79d3f776314da558447b100d8df,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -249,12 +249,12 @@ MonoBehaviour:
   m_margin: {x: -988.1145, y: -483.64996, z: -1000.9778, w: -513.0307}
   m_textInfo:
     textComponent: {fileID: 24936731}
-    characterCount: 182
+    characterCount: 85
     spriteCount: 0
-    spaceCount: 110
-    wordCount: 17
+    spaceCount: 13
+    wordCount: 15
     linkCount: 0
-    lineCount: 5
+    lineCount: 3
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 965505345}
   - component: {fileID: 965505344}
   m_Layer: 5
-  m_Name: TMP SubMeshUI [chinese_simplified1 SDF Material + LiberationSans SDF Atlas]
+  m_Name: TMP SubMeshUI [fangzheng12 SDF3 Material + LiberationSans SDF Atlas]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -692,7 +692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1532551596}
   m_Layer: 0
-  m_Name: openning
+  m_Name: intro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
