@@ -12,7 +12,8 @@ public class GameObjectSaveAndLoad : MonoBehaviour
     private bool ifLoad = false;
     void Start()
     {
-        ifLoad = false;
+        //ifLoad = false;
+        ifLoad = true;
     }
     void Update() 
     {
@@ -79,7 +80,7 @@ public class GameObjectSaveAndLoad : MonoBehaviour
         iOManager.pos = transform.parent.position;
         iOManager.SaveFiles();
     }
-    void OnGUI() 
+    /*void OnGUI() 
     {
         FillIfActiveList();
         if (GUI.Button(new Rect(20, 40, 200, 200), "save text"))
@@ -99,5 +100,5 @@ public class GameObjectSaveAndLoad : MonoBehaviour
         }
         GUI.TextArea(new Rect(300, 40, 500, 50), transform.parent.position.ToString());
         GUI.TextArea(new Rect(300, 100, 500, 50), gameObject.scene.buildIndex.ToString());
-    }
+    }*/
 }
