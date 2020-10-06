@@ -473,7 +473,7 @@ PrefabInstance:
     - target: {fileID: 6385377577017623743, guid: eadbf8b0cc8569f4d8f6d8ff2c6c556a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eadbf8b0cc8569f4d8f6d8ff2c6c556a, type: 3}
@@ -2283,7 +2283,7 @@ PrefabInstance:
     - target: {fileID: 6385377577017623743, guid: eadbf8b0cc8569f4d8f6d8ff2c6c556a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eadbf8b0cc8569f4d8f6d8ff2c6c556a, type: 3}
@@ -4996,16 +4996,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7376783140284836850, guid: 22521c8530b2d784abfaf5326ac9eac0,
-        type: 3}
-      propertyPath: saveGameObjectList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7376783140284836850, guid: 22521c8530b2d784abfaf5326ac9eac0,
-        type: 3}
-      propertyPath: ifActiveList.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7376783140284836850, guid: 22521c8530b2d784abfaf5326ac9eac0,
         type: 3}
       propertyPath: saveGameObjectList.Array.data[0]
