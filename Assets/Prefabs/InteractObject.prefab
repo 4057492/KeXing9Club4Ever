@@ -60,35 +60,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_OnTriggerEnter:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6385377577017623740}
-        m_MethodName: LinkInteractButton
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   m_OnTriggerExit:
     m_PersistentCalls:
+      m_Calls: []
+  m_OnTriggerInteract:
+    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6385377577017623740}
-        m_MethodName: LinkInteractButton
-        m_Mode: 6
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_OnTriggerInteract:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!212 &6385377577017623731
 SpriteRenderer:
   m_ObjectHideFlags: 0
