@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NotebookController : MonoBehaviour {
 	public GameObject[] pages;
@@ -24,6 +25,12 @@ public class NotebookController : MonoBehaviour {
             NotebookController.currentPage = tempPage;
             pages[NotebookController.currentPage].SetActive(true);
         }
+    }
+
+    public void ShowHideInfo()
+    {
+        GameObject obj = GameObject.Find("TextYCinfo");
+        obj.SetActive(false);
     }
 	
 }

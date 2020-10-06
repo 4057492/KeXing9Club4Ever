@@ -7,10 +7,10 @@ public class BedButtonControl1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject obj = GameObject.Find("Button21");
+        GameObject obj = GameObject.Find("Button");
         obj.GetComponent<Button>().enabled = false;
         obj.GetComponent<Image>().color = Color.clear;
-        GameObject obj1 = GameObject.Find("Button22");
+        GameObject obj1 = GameObject.Find("Button");
         obj1.GetComponent<Button>().enabled = false;
         obj1.GetComponent<Image>().color = Color.clear;
     }
@@ -18,7 +18,7 @@ public class BedButtonControl1 : MonoBehaviour
     // Update is called once per frame
     public void SetButtonStatusActive()
     {
-          GameObject obj = GameObject.Find("Button21");
+        GameObject obj = GameObject.Find("Button21");
         obj.GetComponent<Button>().enabled = true;
         obj.GetComponent<Image>().color = Color.white;
        // Text text = obj.transform.GetComponent<Text>();
