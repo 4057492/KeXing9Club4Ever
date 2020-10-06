@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test/TestSaveNew1.unity
     guid: 83b6a29f2ecc7354b9fcc2ec963ea2d5
+  - enabled: 1
+    path: Assets/Scenes/SecondDaySences/sence2_1.unity
+    guid: dceb402483c81274dad7bf96d794f642
+  - enabled: 1
+    path: Assets/Scenes/ThirdDaySences/sence3_1.unity
+    guid: fd8ce5eff32c8524586ffa67a73eb816
   m_configObjects: {}
