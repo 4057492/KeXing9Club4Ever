@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 public class ConditionTrigger : MonoBehaviour
 {
     public bool[] conditions;
+    public GameObject[] flags;
 
     [Serializable]
     public class ConditionEvent : UnityEvent {}
@@ -23,11 +24,19 @@ public class ConditionTrigger : MonoBehaviour
         set { m_OnCondition = value; }
     }   
 
+    private void Start() {
+        for(int i = 0 ; i< conditions.Length ; i++)
+        {
+            conditions[i] = flags[i].activeInHierarchy;
+        }
+    }
+
     public void SetCondition(int index)
     {
         if(index >= 0 && index < conditions.Length)
         {
             conditions[index] = true;
+            flags[index].SetActive(true);
         }
         CheckIfShouldTrigger();
     }
