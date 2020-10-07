@@ -52,12 +52,14 @@ public class TriggerManager : MonoBehaviour,IInteractable
 
     void OnTriggerEnter( Collider other )
     {
-        m_OnTriggerEnter.Invoke();
+        if(other.CompareTag("Player"))
+            m_OnTriggerEnter.Invoke();
     }
 
     void OnTriggerExit( Collider other )
     {
-        m_OnTriggerExit.Invoke();
+        if(other.CompareTag("Player"))
+            m_OnTriggerExit.Invoke();
     }
 
     public void InteractInvoke()

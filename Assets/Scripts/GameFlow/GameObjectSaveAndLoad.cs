@@ -1,19 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.Serialization;
 
 public class GameObjectSaveAndLoad : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject[] saveGameObjectList;
+    public bool[] startActiveList;
     public bool[] ifActiveList;
     public TxtIOManager iOManager;
     private int savedScene;
     private bool ifLoad = false;
     void Start()
     {
-        //ifLoad = false;
-        ifLoad = true;
+        ifLoad = false;
+        //ifLoad = true;
     }
     void Update() 
     {
@@ -30,24 +33,33 @@ public class GameObjectSaveAndLoad : MonoBehaviour
         {
             ifActiveList = TxtIOManager.Instance.GetSavedConditions();
             transform.parent.position = TxtIOManager.Instance.GetSavedPosition();
-            ApplyActive();
+            ApplyActive(ifActiveList);
+        }
+        else
+        {
+            //ApplyActive(startActiveList);
         }
     }
-    private void ApplyActive()
+
+    private void ApplyActive(bool[] boolList)
     {
         if (saveGameObjectList == null)
         { 
             return; 
         }
-        if (ifActiveList == null)
+        if (boolList == null)
         { 
             return; 
         }
         for (int i = 0; i < saveGameObjectList.Length; i++)
         {
-            if (ifActiveList.Length > i)
+            if (saveGameObjectList[i] == null)
             {
-                saveGameObjectList[i].SetActive(ifActiveList[i]);
+                continue;
+            }
+            if (boolList.Length > i)
+            {
+                saveGameObjectList[i].SetActive(boolList[i]);
             }
             else
             {
@@ -56,7 +68,7 @@ public class GameObjectSaveAndLoad : MonoBehaviour
         }
     }
 
-    public void FillIfActiveList()
+    public void FillStart()
     {
         if (saveGameObjectList == null)
         { 
@@ -65,20 +77,58 @@ public class GameObjectSaveAndLoad : MonoBehaviour
         List<bool> temp = new List<bool>();
         for (int i = 0; i < saveGameObjectList.Length;i++)
         {
-            temp.Add(saveGameObjectList[i].activeInHierarchy);
+            if(saveGameObjectList[i] == null)
+            {
+                temp.Add(false);
+            }
+            else
+            {
+                temp.Add(saveGameObjectList[i].activeInHierarchy);
+            }
+        }
+        startActiveList = temp.ToArray();
+    }
+    public void FillActiveList()
+    {
+        if (saveGameObjectList == null)
+        { 
+            return; 
+        }
+        List<bool> temp = new List<bool>();
+        for (int i = 0; i < saveGameObjectList.Length;i++)
+        {
+            if(saveGameObjectList[i] == null)
+            {
+                temp.Add(false);
+            }
+            else
+            {
+                temp.Add(saveGameObjectList[i].activeInHierarchy);
+            }
         }
         ifActiveList = temp.ToArray();
     }
 
     public void SaveGame()
     {
-        FillIfActiveList();
+        FillActiveList();
         if(iOManager == null)
             return;
         iOManager.conditions = ifActiveList;
         iOManager.sceneIndex = gameObject.scene.buildIndex;
         iOManager.pos = transform.parent.position;
         iOManager.SaveFiles();
+    }
+
+    public void SetAllActive()
+    {
+        foreach(GameObject g in saveGameObjectList)
+        {
+            if (g != null)
+            {
+                g.SetActive(true);
+            }
+        }
     }
     /*void OnGUI() 
     {
