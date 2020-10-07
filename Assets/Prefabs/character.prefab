@@ -16,6 +16,10 @@ GameObject:
   - component: {fileID: 7376783139888818061}
   - component: {fileID: 7376783139888818161}
   - component: {fileID: 7376783139888818162}
+  - component: {fileID: 114480372}
+  - component: {fileID: 114480373}
+  - component: {fileID: 114480379}
+  - component: {fileID: 4531388107244391894}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -101,7 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   threshold: 0.09
-  intensity: 0.22
+  intensity: 0.25
   blurSize: 1
   blurIterations: 1
   blurType: 0
@@ -180,6 +184,68 @@ MonoBehaviour:
   blurSpeed: 0.1
   waitTime: 0.1
   blur: {fileID: 0}
+--- !u!95 &114480372
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7376783139888818057}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8d96f99368096644996da9cd298a6fa8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114480373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7376783139888818057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdda781cad112c75d0008dfa8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 641b781cad112c75d0008dfa8d76c639, type: 3}
+  radius: {x: 1, y: 1}
+  angle: 0
+  center: {x: 0.5, y: 0.5}
+--- !u!114 &114480379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7376783139888818057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
+  blurAmount: 0.8
+  extraBlur: 0
+--- !u!114 &4531388107244391894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7376783139888818057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48decc38fff00984d83b5bee0440428d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7376783140284836748
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,11 +289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342b657d299f464d86b67ae18ccd55d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveGameObjectList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  ifActiveList: 000001
+  saveGameObjectList: []
+  ifActiveList: 
   iOManager: {fileID: 0}
 --- !u!1 &7376783141257700822
 GameObject:
