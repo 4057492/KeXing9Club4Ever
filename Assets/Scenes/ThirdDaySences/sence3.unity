@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":630,\"yPos\":243},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u653E\u4ED6\u51FA\u6765\u5427\u8239\u957F\uFF0C\u4ED6\u8FD8\u5E74\u8F7B\u3002\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":256.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u653E\u4ED6\u51FA\u6765\u5427\u8239\u957F\uFF0C\u4ED6\u8FD8\u5E74\u8F7B\u3002\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: Andrew
   DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -179,6 +179,7 @@ MonoBehaviour:
   - {fileID: 1053481760}
   - {fileID: 1053481759}
   - {fileID: 1053481758}
+  - {fileID: 1053481764}
   Event:
     m_PersistentCalls:
       m_Calls:
@@ -871,7 +872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 91
-  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":542,\"yPos\":670},\"ID\":88,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u83B1\u798F\uFF09\\n\",\"parentUIDs\":[57],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":998,\"yPos\":665},\"ID\":89,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u514B\u5170\u897F\uFF09\\n\",\"parentUIDs\":[57],\"SpeechUID\":-1}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":769,\"yPos\":-69},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF0C\u4F60\u4E0D\u8BE5\u8FD9\u6837\u7684\uFF0C\u4E0D\u8981\u7EE7\u7EED\u6000\u7591\u81EA\u5DF1\u3002\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":772,\"yPos\":57},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5728\u8BF4\u4EC0\u4E48\u9B3C\u8BDD\u514B\u5170\u897F\uFF1F\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":775,\"yPos\":188},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"\u4EC0\u4E48\u6000\u7591\u81EA\u5DF1?\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":773,\"yPos\":304},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u6F0F\u6389\u4E86\u654C\u4EBA\u7684\u6F5C\u8247\uFF0C\u4E0D\u602A\u4F60\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":767,\"yPos\":426},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u8BA9\u6211\u4EEC\u56DE\u5BB6\u5427\uFF0C\u8239\u957F\uFF0C\u73B0\u5728\u8FD8\u6765\u5F97\u53CA\u3002\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":57,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":762,\"yPos\":547},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4EEC\u9A6C\u4E0A\u5C31\u5B8C\u6210\u4EFB\u52A1\u4E86\u8239\u957F\uFF0C\u5C31\u5DEE\u4E00\u6B65\uFF0C\u8FD9\u4E9B\u53DB\u5F92\u4E00\u4E2A\u90FD\u4E0D\u80FD\u7559\uFF0C\u60F3\u60F3\u90A3\u4E9B\u7535\u62A5\uFF01\u60F3\u60F3\u4ED6\u8DDF\u5B89\u5FB7\u9C81\u7684\u611F\u60C5\uFF01\u8FD9\u8BF4\u4E0D\u5B9A\u5C31\u662F\u4E2A\u957F\u671F\u7684\u5367\u5E95\uFF01\\n\",\"parentUIDs\":[56,56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[88,89],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-72.5,\"yPos\":516},\"ID\":88,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u83B1\u798F\uFF09\\n\",\"parentUIDs\":[57,57],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":383.5,\"yPos\":511},\"ID\":89,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u514B\u5170\u897F\uFF09\\n\",\"parentUIDs\":[57,57],\"SpeechUID\":-1}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":154.5,\"yPos\":-223},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF0C\u4F60\u4E0D\u8BE5\u8FD9\u6837\u7684\uFF0C\u4E0D\u8981\u7EE7\u7EED\u6000\u7591\u81EA\u5DF1\u3002\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":157.5,\"yPos\":-97},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5728\u8BF4\u4EC0\u4E48\u9B3C\u8BDD\u514B\u5170\u897F\uFF1F\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":160.5,\"yPos\":34},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"\u4EC0\u4E48\u6000\u7591\u81EA\u5DF1?\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":158.5,\"yPos\":150},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u6F0F\u6389\u4E86\u654C\u4EBA\u7684\u6F5C\u8247\uFF0C\u4E0D\u602A\u4F60\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":152.5,\"yPos\":272},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u8BA9\u6211\u4EEC\u56DE\u5BB6\u5427\uFF0C\u8239\u957F\uFF0C\u73B0\u5728\u8FD8\u6765\u5F97\u53CA\u3002\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":57,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":147.5,\"yPos\":393},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4EEC\u9A6C\u4E0A\u5C31\u5B8C\u6210\u4EFB\u52A1\u4E86\u8239\u957F\uFF0C\u5C31\u5DEE\u4E00\u6B65\uFF0C\u8FD9\u4E9B\u53DB\u5F92\u4E00\u4E2A\u90FD\u4E0D\u80FD\u7559\uFF0C\u60F3\u60F3\u90A3\u4E9B\u7535\u62A5\uFF01\u60F3\u60F3\u4ED6\u8DDF\u5B89\u5FB7\u9C81\u7684\u611F\u60C5\uFF01\u8FD9\u8BF4\u4E0D\u5B9A\u5C31\u662F\u4E2A\u957F\u671F\u7684\u5367\u5E95\uFF01\\n\",\"parentUIDs\":[56,56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[88,89],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -903,6 +904,7 @@ MonoBehaviour:
   - {fileID: 668028431}
   - {fileID: 668028438}
   - {fileID: 668028437}
+  - {fileID: 668028439}
   Event:
     m_PersistentCalls:
       m_Calls: []
@@ -1014,6 +1016,7 @@ GameObject:
   - component: {fileID: 316736476}
   - component: {fileID: 316736475}
   - component: {fileID: 316736474}
+  - component: {fileID: 316736480}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -1169,7 +1172,26 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &316736480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316736472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 54
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!1 &391674911
 GameObject:
@@ -1558,7 +1580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":653,\"yPos\":202},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u4FE1\u4E0D\u4FE1\u7531\u4F60\uFF0C\u4E0D\u8981\u903C\u6211\u8239\u957F\u3002\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":256.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u4FE1\u4E0D\u4FE1\u7531\u4F60\uFF0C\u4E0D\u8981\u903C\u6211\u8239\u957F\u3002\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: Andrew
   DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -1751,7 +1773,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &509948963
 MonoBehaviour:
@@ -1770,7 +1792,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &509948964
 MonoBehaviour:
@@ -1808,7 +1830,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &509948966
 MonoBehaviour:
@@ -2177,6 +2199,7 @@ GameObject:
   - component: {fileID: 668028431}
   - component: {fileID: 668028438}
   - component: {fileID: 668028437}
+  - component: {fileID: 668028439}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -2350,6 +2373,25 @@ MonoBehaviour:
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
+--- !u!114 &668028439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668028429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 83
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!114 &668028460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2367,7 +2409,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &668028461
 MonoBehaviour:
@@ -2386,7 +2428,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &668028462
 MonoBehaviour:
@@ -2443,7 +2485,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &668028468
 MonoBehaviour:
@@ -2481,7 +2523,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &668028470
 MonoBehaviour:
@@ -2693,7 +2735,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &714959910
 GameObject:
@@ -3659,7 +3701,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639391
 MonoBehaviour:
@@ -3678,7 +3720,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639392
 MonoBehaviour:
@@ -3697,7 +3739,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639393
 MonoBehaviour:
@@ -3716,7 +3758,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639394
 MonoBehaviour:
@@ -3754,7 +3796,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639396
 MonoBehaviour:
@@ -3773,7 +3815,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639397
 MonoBehaviour:
@@ -3792,7 +3834,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639398
 MonoBehaviour:
@@ -3811,7 +3853,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639399
 MonoBehaviour:
@@ -3830,7 +3872,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639400
 MonoBehaviour:
@@ -3849,7 +3891,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639401
 MonoBehaviour:
@@ -3868,7 +3910,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639402
 MonoBehaviour:
@@ -3925,7 +3967,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639405
 MonoBehaviour:
@@ -3944,7 +3986,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639406
 MonoBehaviour:
@@ -3963,7 +4005,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639407
 MonoBehaviour:
@@ -3982,7 +4024,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639408
 MonoBehaviour:
@@ -4039,7 +4081,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639411
 MonoBehaviour:
@@ -4058,7 +4100,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639412
 MonoBehaviour:
@@ -4077,7 +4119,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639413
 MonoBehaviour:
@@ -4096,7 +4138,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639414
 MonoBehaviour:
@@ -4115,7 +4157,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639415
 MonoBehaviour:
@@ -4172,7 +4214,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639418
 MonoBehaviour:
@@ -4191,7 +4233,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639419
 MonoBehaviour:
@@ -4229,7 +4271,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639421
 MonoBehaviour:
@@ -4248,7 +4290,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639422
 MonoBehaviour:
@@ -4267,7 +4309,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &972639423
 MonoBehaviour:
@@ -4663,7 +4705,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &983053739
 MonoBehaviour:
@@ -4720,7 +4762,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &983053742
 MonoBehaviour:
@@ -4758,7 +4800,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &983053744
 MonoBehaviour:
@@ -4796,7 +4838,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &983053746
 MonoBehaviour:
@@ -4815,7 +4857,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: e1c9223f41565f14689d296e3e860a4e, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &983053747
 MonoBehaviour:
@@ -4834,7 +4876,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &983053748
 MonoBehaviour:
@@ -4853,7 +4895,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &983053749
 MonoBehaviour:
@@ -5065,7 +5107,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &993118478
 GameObject:
@@ -5224,7 +5266,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118485
 MonoBehaviour:
@@ -5281,7 +5323,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118488
 MonoBehaviour:
@@ -5300,7 +5342,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118489
 MonoBehaviour:
@@ -5376,7 +5418,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118493
 MonoBehaviour:
@@ -5395,7 +5437,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118494
 MonoBehaviour:
@@ -5414,7 +5456,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118495
 MonoBehaviour:
@@ -5585,7 +5627,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118504
 MonoBehaviour:
@@ -5604,7 +5646,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118505
 MonoBehaviour:
@@ -5623,7 +5665,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &993118506
 MonoBehaviour:
@@ -5918,6 +5960,7 @@ GameObject:
   - component: {fileID: 1053481760}
   - component: {fileID: 1053481759}
   - component: {fileID: 1053481758}
+  - component: {fileID: 1053481764}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -6084,7 +6127,26 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4983692595894577325, guid: 8ef2e21faf4756b4e915874080871b65, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1053481764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053481756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 32
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!1 &1060070756
 GameObject:
@@ -7054,7 +7116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 39
-  json: '{"Options":[],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":804,"yPos":291},"ID":0,"TMPFontGUID":"","Text":"
+  json: '{"Options":[],"SpeechNodes":[{"EditorInfo":{"isRoot":true,"xPos":256.5,"yPos":22},"ID":0,"TMPFontGUID":"","Text":"
     ..........","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":"","AutoAdvanceShouldDisplayOption":false,"IconGUID":"2c2a5be59b4a36648a911535c6e46ab8","Name":"andrew","OptionUIDs":[],"SpeechUID":-1,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 103
   DefaultName: "\u8239\u957F"
@@ -7302,7 +7364,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: e1c9223f41565f14689d296e3e860a4e, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1772482724
 MonoBehaviour:
@@ -7476,7 +7538,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: e1c9223f41565f14689d296e3e860a4e, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1788702230
 GameObject:
@@ -7874,7 +7936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 29
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":602,\"yPos\":235},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u6211\u4EEC\u9A6C\u4E0A\u5C31\u8981\u6210\u529F\u4E86\u8239\u957F\uFF0C\u4E0D\u7559\u9057\u60A3\u3002\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":256.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u6211\u4EEC\u9A6C\u4E0A\u5C31\u8981\u6210\u529F\u4E86\u8239\u957F\uFF0C\u4E0D\u7559\u9057\u60A3\u3002\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -7887,31 +7949,10 @@ MonoBehaviour:
   - {fileID: 316736476}
   - {fileID: 316736475}
   - {fileID: 316736474}
+  - {fileID: 316736480}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: CamShake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1888450562
 GameObject:
   m_ObjectHideFlags: 0
@@ -9069,7 +9110,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: e1c9223f41565f14689d296e3e860a4e, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &2118602504
 GameObject:
@@ -9253,7 +9294,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 0}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941134
 MonoBehaviour:
@@ -9272,7 +9313,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 0}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941135
 MonoBehaviour:
@@ -9291,7 +9332,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 0}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941136
 MonoBehaviour:
@@ -9310,7 +9351,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 0}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941137
 MonoBehaviour:
@@ -9329,7 +9370,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 0}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941138
 MonoBehaviour:
@@ -9348,7 +9389,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 0}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941139
 MonoBehaviour:
@@ -9443,7 +9484,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941144
 MonoBehaviour:
@@ -9462,7 +9503,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941145
 MonoBehaviour:
@@ -9519,7 +9560,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941148
 MonoBehaviour:
@@ -9576,7 +9617,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2120941151
 MonoBehaviour:
@@ -9742,7 +9783,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
-  Icon: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Icon: {fileID: 21300000, guid: 8ce3ab9d1f3046e4891a25cbea7c4507, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &2140350083
 GameObject:
@@ -9789,11 +9830,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 57
-  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":442,\"yPos\":293},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u653E\u4EFB\u5F00\u67AA\\n\",\"parentUIDs\":[41,56],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1288,\"yPos\":284},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"
-    \u963B\u6B62\u5F00\u67AA\\n\",\"parentUIDs\":[41,56],\"SpeechUID\":46}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":835,\"yPos\":-302},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8BE5\u6B7B\u7684\uFF0C\u5C31\u4E0D\u8BE5\u653E\u4F60\u51FA\u6765\u7684\uFF01\u4F60\u8FD9\u4E2A\u6DF7\u86CB\uFF01\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":838,\"yPos\":-176},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":841,\"yPos\":-45},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"
-    \u8FD9\u56DE\u597D\u4E86\uFF01\u6211\u4EEC\u53EF\u4EE5\u56DE\u5BB6\u4E86\u5417\uFF01\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":839,\"yPos\":71},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"
-    \u4E3B\uFF0C\u5E26\u6211\u56DE\u5BB6\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1287,\"yPos\":386},\"ID\":46,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86\u5417\u8239\u957F\uFF01\u4ED6\u7838\u4E86\u6211\u4EEC\u7684\u63A2\u6D4B\u5668\uFF01\u6211\u4EEC\u5168\u90FD\u767D\u505A\u4E86\uFF01\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF01\\n\",\"parentUIDs\":[44,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":48,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1298,\"yPos\":524},\"ID\":48,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u8FD8\u662F\u4E2A\u5B69\u5B50\u554A\uFF0C\u4ED6\u53EF\u80FD\u771F\u7684\u542C\u89C1\u4E86\u4EC0\u4E48\u3002\\n\",\"parentUIDs\":[46,46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":50,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1299,\"yPos\":635},\"ID\":50,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u662F\u4E2A\u61E6\u592B\uFF0C\u4ED6\u4EC0\u4E48\u90FD\u6CA1\u542C\u89C1\uFF01\u4ED6\u53EA\u662F\u60F3\u56DE\u5BB6\uFF01\u4F60\u5FD8\u4E86\u4F60\u519B\u4EBA\u7684\u8A93\u8A00\u5417\uFF01\\n\",\"parentUIDs\":[48,48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":51,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1292,\"yPos\":736},\"ID\":51,\"TMPFontGUID\":null,\"Text\":\"......\\n\",\"parentUIDs\":[50,50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":52,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1304,\"yPos\":839},\"ID\":52,\"TMPFontGUID\":null,\"Text\":\"\u53BB\u4F60\u7684\uFF01\",\"parentUIDs\":[51,51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":833,\"yPos\":166},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86
-    \u4F60\u8BE5\u4E3A\u4F60\u7684\u884C\u4E3A\u611F\u5230\u803B\u8FB1\uFF01\u4F60\u4E0D\u914D\u4F5C\u4E3A\u4E00\u540D\u5FB7\u610F\u5FD7\u519B\u4EBA\uFF01\\n\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[43,44],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-136.5,\"yPos\":617},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u653E\u4EFB\u5F00\u67AA\\n\",\"parentUIDs\":[41,56,56],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":709.5,\"yPos\":608},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"
+    \u963B\u6B62\u5F00\u67AA\\n\",\"parentUIDs\":[41,56,56],\"SpeechUID\":46}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":256.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8BE5\u6B7B\u7684\uFF0C\u5C31\u4E0D\u8BE5\u653E\u4F60\u51FA\u6765\u7684\uFF01\u4F60\u8FD9\u4E2A\u6DF7\u86CB\uFF01\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":259.5,\"yPos\":148},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":262.5,\"yPos\":279},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"
+    \u8FD9\u56DE\u597D\u4E86\uFF01\u6211\u4EEC\u53EF\u4EE5\u56DE\u5BB6\u4E86\u5417\uFF01\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":260.5,\"yPos\":395},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"
+    \u4E3B\uFF0C\u5E26\u6211\u56DE\u5BB6\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":708.5,\"yPos\":710},\"ID\":46,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86\u5417\u8239\u957F\uFF01\u4ED6\u7838\u4E86\u6211\u4EEC\u7684\u63A2\u6D4B\u5668\uFF01\u6211\u4EEC\u5168\u90FD\u767D\u505A\u4E86\uFF01\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF01\\n\",\"parentUIDs\":[44,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":48,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":719.5,\"yPos\":848},\"ID\":48,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u8FD8\u662F\u4E2A\u5B69\u5B50\u554A\uFF0C\u4ED6\u53EF\u80FD\u771F\u7684\u542C\u89C1\u4E86\u4EC0\u4E48\u3002\\n\",\"parentUIDs\":[46,46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":50,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":721.5,\"yPos\":959},\"ID\":50,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u662F\u4E2A\u61E6\u592B\uFF0C\u4ED6\u4EC0\u4E48\u90FD\u6CA1\u542C\u89C1\uFF01\u4ED6\u53EA\u662F\u60F3\u56DE\u5BB6\uFF01\u4F60\u5FD8\u4E86\u4F60\u519B\u4EBA\u7684\u8A93\u8A00\u5417\uFF01\\n\",\"parentUIDs\":[48,48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":51,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":713.5,\"yPos\":1060},\"ID\":51,\"TMPFontGUID\":null,\"Text\":\"......\\n\",\"parentUIDs\":[50,50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":52,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":725.5,\"yPos\":1163},\"ID\":52,\"TMPFontGUID\":null,\"Text\":\"\u53BB\u4F60\u7684\uFF01\",\"parentUIDs\":[51,51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":254.5,\"yPos\":490},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86
+    \u4F60\u8BE5\u4E3A\u4F60\u7684\u884C\u4E3A\u611F\u5230\u803B\u8FB1\uFF01\u4F60\u4E0D\u914D\u4F5C\u4E3A\u4E00\u540D\u5FB7\u610F\u5FD7\u519B\u4EBA\uFF01\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[43,44],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -9823,7 +9864,29 @@ MonoBehaviour:
   - {fileID: 983053738}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: CamShake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &320561596743972979
 PrefabInstance:
   m_ObjectHideFlags: 0
