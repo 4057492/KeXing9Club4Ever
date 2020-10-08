@@ -75,7 +75,7 @@ public class TxtIOManager : MonoBehaviour
         Debug.Log(scenePath);
         Debug.Log(consPath);
         Debug.Log(posPath);
-        File.WriteAllText(scenePath, defaultScene.ToString(), Encoding.UTF8);
+        File.WriteAllText(scenePath, "-1", Encoding.UTF8);
         File.WriteAllText(consPath, "", Encoding.UTF8);
         File.WriteAllText(posPath, "", Encoding.UTF8);
     }
