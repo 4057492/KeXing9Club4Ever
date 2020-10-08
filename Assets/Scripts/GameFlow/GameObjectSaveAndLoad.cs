@@ -8,15 +8,15 @@ public class GameObjectSaveAndLoad : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject[] saveGameObjectList;
-    public bool[] startActiveList;
-    public bool[] ifActiveList;
+    //public bool[] startActiveList;
+    private bool[] ifActiveList;
     public TxtIOManager iOManager;
     private int savedScene;
     private bool ifLoad = false;
     void Start()
     {
-        ifLoad = false;
-        //ifLoad = true;
+        //ifLoad = false;
+        ifLoad = true;
     }
     void Update() 
     {
@@ -68,7 +68,7 @@ public class GameObjectSaveAndLoad : MonoBehaviour
         }
     }
 
-    public void FillStart()
+    /*public void FillStart()
     {
         if (saveGameObjectList == null)
         { 
@@ -87,7 +87,7 @@ public class GameObjectSaveAndLoad : MonoBehaviour
             }
         }
         startActiveList = temp.ToArray();
-    }
+    }*/
     public void FillActiveList()
     {
         if (saveGameObjectList == null)
