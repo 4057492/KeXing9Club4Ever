@@ -3748,6 +3748,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f7fb31920e3e034080b677e8283a876, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &408442397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,6 +3878,8 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
+=======
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 =======
 >>>>>>> parent of 1b3d1bb... 完善第三天对话
 --- !u!1 &417840322 stripped
@@ -4373,6 +4376,8 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &524022033
+<<<<<<< HEAD
+=======
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4493,11 +4498,39 @@ RectTransform:
   m_SizeDelta: {x: 53, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &533667281
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 524022032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 18
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":786,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u67D0\u79CD\u70C8\u6027\u5A01\u58EB\u5FCC\uFF0C\u4E00\u53E3\u8DB3\u4EE5\u7F13\u4E0A\u534A\u5929\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"\u52A3\u8D28\u4F46\u662F\u7EDF\u4E00\u7684\u5A01\u58EB\u5FCC\u54C1\u724C\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  saveVersion: 103
+  DefaultName: Andrew
+  DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
+    type: 3}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2101161643}
+  - {fileID: 2101161642}
+  - {fileID: 2101161641}
+  - {fileID: 2101161640}
+  - {fileID: 2101161639}
+  - {fileID: 2101161637}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &524022034
+Transform:
+=======
   m_GameObject: {fileID: 533667279}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4554,10 +4587,24 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &537962244
 MonoBehaviour:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 524022032}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.69863, y: -4.126466, z: 2.0408926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2101161638}
+  m_Father: {fileID: 1125569867}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &528955992
+GameObject:
+=======
   m_GameObject: {fileID: 537962243}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4587,10 +4634,25 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &537962246
 MonoBehaviour:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 528955993}
+  m_Layer: 0
+  m_Name: ConversationDaoJu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &528955993
+Transform:
+=======
   m_GameObject: {fileID: 537962243}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4606,10 +4668,68 @@ MonoBehaviour:
   Audio: {fileID: 0}
 --- !u!114 &537962247
 MonoBehaviour:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 528955992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 259.59286, y: 10.275804, z: -79.39578}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1348701286}
+  - {fileID: 117363002}
+  - {fileID: 1125569867}
+  - {fileID: 815003473}
+  - {fileID: 144134612}
+  - {fileID: 1535389277}
+  - {fileID: 1979344020}
+  - {fileID: 1298247988}
+  - {fileID: 1195486424}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &533667279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 533667280}
+  - component: {fileID: 533667282}
+  - component: {fileID: 533667281}
+  m_Layer: 5
+  m_Name: Text1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &533667280
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533667279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 545377684}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -55, y: 10}
+  m_SizeDelta: {x: 53, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &533667281
+=======
   m_GameObject: {fileID: 537962243}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4624,17 +4744,73 @@ MonoBehaviour:
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &537962248
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 533667279}
+=======
   m_GameObject: {fileID: 537962243}
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -138076872100874857, guid: 6f2c6d17dd5134e46983d0ee3eae8b04,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &533667282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533667279}
+  m_CullTransparentMesh: 0
+--- !u!1 &537962243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 537962245}
+  - component: {fileID: 537962250}
+  - component: {fileID: 537962249}
+  - component: {fileID: 537962248}
+  - component: {fileID: 537962247}
+  - component: {fileID: 537962246}
+  - component: {fileID: 537962244}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &537962244
+=======
   NodeID: 2
   Event:
     m_PersistentCalls:
@@ -4643,6 +4819,7 @@ MonoBehaviour:
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &537962249
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4654,14 +4831,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  NodeID: 7
+=======
   NodeID: 1
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   Event:
     m_PersistentCalls:
       m_Calls: []
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
+<<<<<<< HEAD
+--- !u!4 &537962245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537962243}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 553268663}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &537962246
+=======
 --- !u!114 &537962250
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4673,6 +4872,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  NodeID: 6
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &537962247
+MonoBehaviour:
+=======
   NodeID: 0
   Event:
     m_PersistentCalls:
@@ -4715,10 +4925,28 @@ MonoBehaviour:
   Audio: {fileID: 0}
 --- !u!1 &545377683
 GameObject:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 537962243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 5
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &537962248
+MonoBehaviour:
+=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 545377684}
@@ -4734,10 +4962,27 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &545377684
 RectTransform:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 537962243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 2
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &537962249
+=======
   m_GameObject: {fileID: 545377683}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000067578745}
@@ -4759,34 +5004,98 @@ RectTransform:
   m_SizeDelta: {x: 364, y: 146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545377685
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 537962243}
+=======
   m_GameObject: {fileID: 545377683}
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  NodeID: 1
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &537962250
+=======
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
 --- !u!114 &545377686
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 537962243}
+=======
   m_GameObject: {fileID: 545377683}
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  NodeID: 0
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: CamShake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: SetFunctionToConversation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
+  Icon: {fileID: 21300000, guid: 30234ef3f3538834ea587d7b3e6b4813, type: 3}
+  Audio: {fileID: 0}
+--- !u!1 &545377683
+GameObject:
+=======
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -4799,10 +5108,28 @@ MonoBehaviour:
   m_DynamicPixelsPerUnit: 1
 --- !u!223 &545377687
 Canvas:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 545377684}
+  - component: {fileID: 545377687}
+  - component: {fileID: 545377686}
+  - component: {fileID: 545377685}
+  m_Layer: 5
+  m_Name: Page3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &545377684
+RectTransform:
+=======
   m_GameObject: {fileID: 545377683}
   m_Enabled: 1
   serializedVersion: 3
@@ -4820,10 +5147,34 @@ Canvas:
   m_TargetDisplay: 0
 --- !u!1 &553268661
 GameObject:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 545377683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000067578745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1264277698}
+  - {fileID: 327254193}
+  - {fileID: 2088417893}
+  - {fileID: 533667280}
+  - {fileID: 1393072087}
+  - {fileID: 1340068009}
+  - {fileID: 1372699333}
+  m_Father: {fileID: 98418448}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -19.000244, y: 93}
+  m_SizeDelta: {x: 364, y: 146}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &545377685
+=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 553268663}
@@ -4836,11 +5187,27 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &553268662
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 545377683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &545377686
+MonoBehaviour:
+=======
   m_GameObject: {fileID: 553268661}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4899,10 +5266,69 @@ MonoBehaviour:
         m_CallState: 2
 --- !u!4 &553268663
 Transform:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 545377683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &545377687
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545377683}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &553268661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 553268663}
+  - component: {fileID: 553268662}
+  m_Layer: 0
+  m_Name: ConversationDJ6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &553268662
+MonoBehaviour:
+=======
   m_GameObject: {fileID: 553268661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.69863, y: -4.126466, z: 2.0408926}
@@ -4914,10 +5340,70 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &567955473
 GameObject:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 553268661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 18
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":786,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"andrew\u7236\u4EB2\u7684\u8001\u5F0F\u53F8\u4EE4\u52CB\u7AE0\uFF0C\u5FB7\u610F\u5FD7\u519B\u4EBA\u7684\u6700\u9AD8\u8363\u8A89\u4E4B\u4E00\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"\u7236\u8F88\u7684\u52CB\u7AE0\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  saveVersion: 103
+  DefaultName: Andrew
+  DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
+    type: 3}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 537962250}
+  - {fileID: 537962249}
+  - {fileID: 537962248}
+  - {fileID: 537962247}
+  - {fileID: 537962246}
+  - {fileID: 537962244}
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: CamShake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: SetFunctionToConversation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &553268663
+=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 567955474}
@@ -4932,11 +5418,25 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &567955474
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 553268661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.69863, y: -4.126466, z: 2.0408926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 537962245}
+  m_Father: {fileID: 1979344020}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &567955473
+GameObject:
+=======
   m_GameObject: {fileID: 567955473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.4928, y: 3.22, z: 0}
@@ -4964,6 +5464,130 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567955473}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &567955477
+MeshFilter:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 567955474}
+  - component: {fileID: 567955477}
+  - component: {fileID: 567955476}
+  - component: {fileID: 567955475}
+  m_Layer: 0
+  m_Name: BedroomCub0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &567955474
+Transform:
+=======
+  m_GameObject: {fileID: 567955473}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &568714091
+GameObject:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 567955473}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4928, y: 3.22, z: 0}
+  m_LocalScale: {x: 0.013800103, y: 18.779388, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1545454508}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &567955475
+BoxCollider:
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 568714092}
+  - component: {fileID: 568714093}
+  m_Layer: 0
+  m_Name: Conversation32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &568714092
+Transform:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 567955473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &567955476
+MeshRenderer:
+=======
+  m_GameObject: {fileID: 568714091}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 27.50998, y: -4.546466, z: -7.9591064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1066333509}
+  m_Father: {fileID: 1978325298}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &568714093
+MonoBehaviour:
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 567955473}
   m_Enabled: 0
   m_CastShadows: 1
@@ -5043,6 +5667,8 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 1b3d1bb... 完善第三天对话
   m_GameObject: {fileID: 568714091}
   m_Enabled: 1
   m_EditorHideFlags: 0
