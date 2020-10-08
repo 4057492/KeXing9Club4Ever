@@ -208,14 +208,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 128
-  m_fontSizeBase: 128
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 33
-  m_textAlignment: 260
+  m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
     spaceCount: 15
     wordCount: 16
     linkCount: 0
-    lineCount: 4
+    lineCount: 2
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
