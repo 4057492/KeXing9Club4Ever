@@ -3300,7 +3300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":256.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u6211...\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":511.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u6211...\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -3315,40 +3315,7 @@ MonoBehaviour:
   - {fileID: 132034552}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 419104706}
-        m_MethodName: StopAllCoroutines
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 419104706}
-        m_MethodName: CamShake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1571825406}
-        m_MethodName: SetFunctionToConversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &676156510
 GameObject:
   m_ObjectHideFlags: 0
@@ -4570,7 +4537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":216.5,\"yPos\":-272},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\u4F46\u662F\u6211\u597D\u60F3...\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":218.5,\"yPos\":-151},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u5FD8\u4E86\u4F60\u7684\u519B\u4EBA\u8EAB\u4EFD\uFF01\u9501\u5B9A\u76EE\u6807\uFF0C\u7136\u540E\u56DE\u5230\u4F60\u4EEC\u5404\u81EA\u7684\u5C97\u4F4D\u4E0A\u53BB\uFF01\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":15,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":221.5,\"yPos\":-19},\"ID\":15,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[14,14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":16,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":220.5,\"yPos\":115},\"ID\":16,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u771F\u7684\u8BA9\u4EBA\u60F3\u4E0D\u901A\u3002\\n\",\"parentUIDs\":[15,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":17,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":219.5,\"yPos\":240},\"ID\":17,\"TMPFontGUID\":null,\"Text\":\"\u4ECA\u5929\u5C31\u8FD9\u6837\u5427\u3002\",\"parentUIDs\":[16,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":625.5,\"yPos\":96},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\u4F46\u662F\u6211\u597D\u60F3...\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":14,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":627.5,\"yPos\":217},\"ID\":14,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u5FD8\u4E86\u4F60\u7684\u519B\u4EBA\u8EAB\u4EFD\uFF01\u9501\u5B9A\u76EE\u6807\uFF0C\u7136\u540E\u56DE\u5230\u4F60\u4EEC\u5404\u81EA\u7684\u5C97\u4F4D\u4E0A\u53BB\uFF01\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u5927\u526F\",\"OptionUIDs\":[],\"SpeechUID\":15,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":630.5,\"yPos\":349},\"ID\":15,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[14,14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clansey\",\"OptionUIDs\":[],\"SpeechUID\":16,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":629.5,\"yPos\":483},\"ID\":16,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u771F\u7684\u8BA9\u4EBA\u60F3\u4E0D\u901A\u3002\\n\",\"parentUIDs\":[15,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":17,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":628.5,\"yPos\":608},\"ID\":17,\"TMPFontGUID\":null,\"Text\":\"\u4ECA\u5929\u5C31\u8FD9\u6837\u5427\u3002\",\"parentUIDs\":[16,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: Andrew
   DefaultSprite: {fileID: -3329631506766442053, guid: 0c47ceca746b5d54c9e7153fafc38fc0,

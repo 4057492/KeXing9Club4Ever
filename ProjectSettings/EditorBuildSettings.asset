@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstDaySences/sence1_1.unity
     guid: acaedf0bf606c864f8c2daf66e19ffe6
+  - enabled: 1
+    path: Assets/Scenes/SecondDaySences/sence2_2.unity
+    guid: 41b47593977a5e142b92181927326fe2
+  - enabled: 1
+    path: Assets/Scenes/ThirdDaySences/sence3_2.unity
+    guid: 6fde4818a39e5854ea115511b19e04a4
   m_configObjects: {}
