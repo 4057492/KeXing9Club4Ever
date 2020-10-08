@@ -35,6 +35,15 @@ public class CharacterControl : Statem {
 
 		currentState = new Stay ();
 	}
+	public void Freeze()
+	{
+		animator.Play ("stay");
+        rig.constraints = RigidbodyConstraints.FreezeAll;
+    }
+	public void Defreeze()
+	{
+        rig.constraints = RigidbodyConstraints.FreezeRotation;
+    }
 	bool ShouldAccelerate()
 	{
         return (moveDir != 0 && Mathf.Abs(rig.velocity.x) <= maxSpeed);

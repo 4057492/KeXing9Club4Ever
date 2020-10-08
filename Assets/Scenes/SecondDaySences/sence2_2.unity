@@ -12227,7 +12227,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 46
+  m_firstOverflowCharacterIndex: 29
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -12256,7 +12256,7 @@ MonoBehaviour:
     spaceCount: 14
     wordCount: 15
     linkCount: 0
-    lineCount: 5
+    lineCount: 4
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
@@ -19013,7 +19013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44691aec79ce0e4d951411981d06764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterMove: {fileID: 1815462842}
+  characterControl: {fileID: 7376783140034109494}
   MainHUBControl: {fileID: 1634818771}
   NotebookHUBControl: {fileID: 1084256100}
 --- !u!1 &1338043489
@@ -21711,7 +21711,7 @@ Transform:
   - {fileID: 1138563621}
   - {fileID: 1135051388}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1550793806
 GameObject:
@@ -30903,6 +30903,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7376783140034109491}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7376783140034109494 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7376783141713159048, guid: 22521c8530b2d784abfaf5326ac9eac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7376783140034109491}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846c36625b2c3a941b2ff55770e840dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8162517841333233481
 PrefabInstance:
   m_ObjectHideFlags: 0
