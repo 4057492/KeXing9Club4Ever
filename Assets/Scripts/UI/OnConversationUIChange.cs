@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class OnConversationUIChange : MonoBehaviour
 {
-    public CharacterMove characterMove;
+    public CharacterControl characterControl;
     public SetMultiGameobjecsActive MainHUBControl;
     public SetMultiGameobjecsActive NotebookHUBControl;
     // Start is called before the first frame update
@@ -27,9 +27,9 @@ public class OnConversationUIChange : MonoBehaviour
         {
             MainHUBControl.SetTargetsActive(false);
         }
-        if(characterMove)
+        if(characterControl)
         {
-            characterMove.StopMove();
+            characterControl.Freeze();
         }
         if(NotebookHUBControl)
         {
@@ -39,14 +39,13 @@ public class OnConversationUIChange : MonoBehaviour
 
     void OnConversationEnd()
     {
-        //Scene scene = SceneManager.GetActiveScene ();
-      //  GUILayout.Label ("当前场景: " + scene.name);
-        //if(scene.name != "FirstScene")
+        if (MainHUBControl)
         {
-            if (MainHUBControl)
-            {
-                MainHUBControl.SetTargetsActive(true);
-            }
+            MainHUBControl.SetTargetsActive(true);
+        }
+        if(characterControl)
+        {
+            characterControl.Defreeze();
         }
     }
 

@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: b2fb4e7a12932fa4a9afb1dce56e17df
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/StartSence/listen-room0.unity
     guid: 1eb86912bae496e4084b45359bab718d
   - enabled: 0
@@ -40,5 +40,5 @@ EditorBuildSettings:
     guid: 41b47593977a5e142b92181927326fe2
   - enabled: 1
     path: Assets/Scenes/ThirdDaySences/sence3_2.unity
-    guid: 6fde4818a39e5854ea115511b19e04a4
+    guid: 2ac98c9272c5c17468c9d6ff57378b06
   m_configObjects: {}
