@@ -42,7 +42,15 @@ public class TxtIOManager : MonoBehaviour
             return defaultScene;
         }
         float temp = float.Parse(str);
-        return (int)temp;
+        int result = (int)temp;
+        if(result > 0)
+        {
+            return result;
+        }
+        else
+        {
+            return 1;
+        }
     }
     //获取存储的条件
     public bool[] GetSavedConditions()
