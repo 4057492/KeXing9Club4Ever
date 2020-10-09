@@ -173,7 +173,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -512,7 +511,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -586,7 +584,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -660,7 +657,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -943,7 +939,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1300,7 +1295,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1828,7 +1822,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2379,7 +2372,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2841,7 +2833,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2920,7 +2911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 93
-  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":545.5,\"yPos\":75},\"ID\":88,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u83B1\u798F\uFF09\\n\",\"parentUIDs\":[57,57],\"SpeechUID\":91},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1002.5,\"yPos\":69},\"ID\":89,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u514B\u5170\u897F\uFF09\\n\",\"parentUIDs\":[57,57],\"SpeechUID\":92}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":772.5,\"yPos\":-664},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF0C\u4F60\u4E0D\u8BE5\u8FD9\u6837\u7684\uFF0C\u4E0D\u8981\u7EE7\u7EED\u6000\u7591\u81EA\u5DF1\u3002\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":775.5,\"yPos\":-538},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5728\u8BF4\u4EC0\u4E48\u9B3C\u8BDD\u514B\u5170\u897F\uFF1F\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":779.5,\"yPos\":-407},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"\u4EC0\u4E48\u6000\u7591\u81EA\u5DF1?\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":776.5,\"yPos\":-291},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u6F0F\u6389\u4E86\u654C\u4EBA\u7684\u6F5C\u8247\uFF0C\u4E0D\u602A\u4F60\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":770.5,\"yPos\":-169},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u8BA9\u6211\u4EEC\u56DE\u5BB6\u5427\uFF0C\u8239\u957F\uFF0C\u73B0\u5728\u8FD8\u6765\u5F97\u53CA\u3002\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":57,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":765.5,\"yPos\":-48},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4EEC\u9A6C\u4E0A\u5C31\u5B8C\u6210\u4EFB\u52A1\u4E86\u8239\u957F\uFF0C\u5C31\u5DEE\u4E00\u6B65\uFF0C\u8FD9\u4E9B\u53DB\u5F92\u4E00\u4E2A\u90FD\u4E0D\u80FD\u7559\uFF0C\u60F3\u60F3\u90A3\u4E9B\u7535\u62A5\uFF01\u60F3\u60F3\u4ED6\u8DDF\u5B89\u5FB7\u9C81\u7684\u611F\u60C5\uFF01\u8FD9\u8BF4\u4E0D\u5B9A\u5C31\u662F\u4E2A\u957F\u671F\u7684\u5367\u5E95\uFF01\\n\",\"parentUIDs\":[56,56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[88,89],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":551.5,\"yPos\":171},\"ID\":91,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[88,88],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":986.5,\"yPos\":168},\"ID\":92,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[89,89],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-116,\"yPos\":78},\"ID\":88,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u83B1\u798F\uFF09\\n\",\"parentUIDs\":[57,57],\"SpeechUID\":91},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":341,\"yPos\":72},\"ID\":89,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u67AA\uFF08\u514B\u5170\u897F\uFF09\\n\",\"parentUIDs\":[57,57],\"SpeechUID\":92}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":111,\"yPos\":-661},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\uFF0C\u4F60\u4E0D\u8BE5\u8FD9\u6837\u7684\uFF0C\u4E0D\u8981\u7EE7\u7EED\u6000\u7591\u81EA\u5DF1\u3002\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":114,\"yPos\":-535},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u5728\u8BF4\u4EC0\u4E48\u9B3C\u8BDD\u514B\u5170\u897F\uFF1F\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":118,\"yPos\":-404},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"\u4EC0\u4E48\u6000\u7591\u81EA\u5DF1?\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":115,\"yPos\":-288},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u6F0F\u6389\u4E86\u654C\u4EBA\u7684\u6F5C\u8247\uFF0C\u4E0D\u602A\u4F60\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":109,\"yPos\":-166},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u8BA9\u6211\u4EEC\u56DE\u5BB6\u5427\uFF0C\u8239\u957F\uFF0C\u73B0\u5728\u8FD8\u6765\u5F97\u53CA\u3002\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":57,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":104,\"yPos\":-45},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4EEC\u9A6C\u4E0A\u5C31\u5B8C\u6210\u4EFB\u52A1\u4E86\u8239\u957F\uFF0C\u5C31\u5DEE\u4E00\u6B65\uFF0C\u8FD9\u4E9B\u53DB\u5F92\u4E00\u4E2A\u90FD\u4E0D\u80FD\u7559\uFF0C\u60F3\u60F3\u90A3\u4E9B\u7535\u62A5\uFF01\u60F3\u60F3\u4ED6\u8DDF\u5B89\u5FB7\u9C81\u7684\u611F\u60C5\uFF01\u8FD9\u8BF4\u4E0D\u5B9A\u5C31\u662F\u4E2A\u957F\u671F\u7684\u5367\u5E95\uFF01\\n\",\"parentUIDs\":[56,56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[88,89],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-110,\"yPos\":174},\"ID\":91,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[88,88],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":325,\"yPos\":171},\"ID\":92,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[89,89],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -3010,7 +3001,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3379,7 +3369,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3457,7 +3446,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3776,7 +3764,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3921,7 +3908,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4246,7 +4232,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4312,7 +4297,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4528,7 +4512,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4772,7 +4755,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4850,7 +4832,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5028,7 +5009,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5391,7 +5371,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5718,7 +5697,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.5803922}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7419,7 +7397,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7665,7 +7642,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8103,7 +8079,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8254,7 +8229,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8431,7 +8405,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8509,7 +8482,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8583,7 +8555,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8396226, g: 0.76558673, b: 0.60595405, a: 0.57254905}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8657,7 +8628,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8738,7 +8708,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8919,6 +8888,9 @@ GameObject:
   - component: {fileID: 972639445}
   - component: {fileID: 972639444}
   - component: {fileID: 972639443}
+  - component: {fileID: 972639449}
+  - component: {fileID: 972639448}
+  - component: {fileID: 972639447}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -10045,6 +10017,63 @@ MonoBehaviour:
   TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
   Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
   Audio: {fileID: 0}
+--- !u!114 &972639447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972639388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 99
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
+  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &972639448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972639388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 98
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
+  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &972639449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972639388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodeID: 97
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
+  Icon: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0, type: 3}
+  Audio: {fileID: 0}
 --- !u!1 &983053736
 GameObject:
   m_ObjectHideFlags: 0
@@ -10609,7 +10638,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7372549}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11831,7 +11859,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11921,7 +11948,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12093,7 +12119,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.53333336}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12168,7 +12193,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12775,7 +12799,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -13367,7 +13390,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -13987,7 +14009,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14065,7 +14086,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.2784314}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14319,7 +14339,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 0.5686275}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14467,7 +14486,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14545,7 +14563,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.5803922}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15374,7 +15391,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -16195,7 +16211,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -16273,7 +16288,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -16444,7 +16458,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -16721,7 +16734,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17047,7 +17059,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17057,6 +17068,7 @@ MonoBehaviour:
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
   m_padding: 1.25
+  m_canvasRenderer: {fileID: 1470801782}
   m_TextComponent: {fileID: 2051217957}
   m_materialReferenceIndex: 1
 --- !u!222 &1470801782
@@ -17324,7 +17336,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17501,7 +17512,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17781,7 +17791,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17859,7 +17868,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17937,7 +17945,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18015,7 +18022,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18093,7 +18099,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18171,7 +18176,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7529412}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18569,7 +18573,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18779,7 +18782,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18888,7 +18890,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -19059,7 +19060,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -19249,7 +19249,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7372549}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -19624,7 +19623,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -20179,7 +20177,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21174,7 +21171,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21358,7 +21354,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21498,7 +21493,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21576,7 +21570,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21814,7 +21807,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -22122,7 +22114,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -23195,7 +23186,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -23221,12 +23211,13 @@ MonoBehaviour:
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
   m_fontSize: 64
   m_fontSizeBase: 64
   m_fontWeight: 400
@@ -23234,8 +23225,6 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 33
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -23246,8 +23235,10 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -23255,18 +23246,40 @@ MonoBehaviour:
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
   m_horizontalMapping: 0
   m_verticalMapping: 0
   m_uvLineOffset: 0
   m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
   m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 0}
+    characterCount: 0
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 0
+    linkCount: 0
+    lineCount: 0
+    pageCount: 0
+    materialCount: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
   m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2051217958
@@ -23672,7 +23685,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -24899,14 +24911,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 97
-  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":507,\"yPos\":-2221},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u653E\u4EFB\u5F00\u67AA\\n\",\"parentUIDs\":[41,56],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1353,\"yPos\":-2230},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"
-    \u963B\u6B62\u5F00\u67AA\\n\",\"parentUIDs\":[41,56],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":705,\"yPos\":-1548},\"ID\":61,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u6211\uFF0C\u7ACB\u523B\uFF01\\n\",\"parentUIDs\":[60],\"SpeechUID\":63},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1038,\"yPos\":-1542},\"ID\":62,\"TMPFontGUID\":null,\"Text\":\"\u542C\u6211\u8BF4\u5DF4\u514B\u5229\uFF0C\u5B89\u5FB7\u9C81\u75AF\u4E86\uFF0C\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF0C\u6211\u4E0D\u5F97\u4E0D\u8FD9\u6837\u505A\u3002\\n\",\"parentUIDs\":[60],\"SpeechUID\":64},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":609,\"yPos\":589},\"ID\":84,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF08\u5DF4\u514B\u5229\uFF09\\n\",\"parentUIDs\":[83],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":880,\"yPos\":586},\"ID\":85,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF08\u83B1\u798F\uFF09\\n\",\"parentUIDs\":[83],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1095,\"yPos\":593},\"ID\":86,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF08\u514B\u5170\u897F\uFF09\\n\",\"parentUIDs\":[83],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1367,\"yPos\":594},\"ID\":87,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[83],\"SpeechUID\":-1}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":900,\"yPos\":-2816},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u4F60\u8FD9\u4E2A\u75AF\u5B50\uFF01\u6211\u4E5F\u542C\u89C1\u4E86\uFF01\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":903,\"yPos\":-2690},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"
-    ...\u8239\u957F\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":906,\"yPos\":-2559},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"
-    \u8BE5\u6B7B\u7684\uFF01\u514B\u5170\u897F\uFF0C\u544A\u8BC9\u4ED6\uFF0C\u544A\u8BC9\u4ED6\u4F60\u4E5F\u542C\u89C1\u4E86\uFF01\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":904,\"yPos\":-2443},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u80FD\u6740\u6B7B\u5B89\u5FB7\u9C81\uFF01\u5C31\u80FD\u6740\u6B7B\u6211\u4EEC\u514B\u5170\u897F\uFF01\u8C01\u4E5F\u8DD1\u4E0D\u4E86\uFF01\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":888,\"yPos\":-2059},\"ID\":48,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u6211\u5DF4\u514B\u5229\uFF0C\u4E0D\u8981\u903C\u6211\u3002\\n\",\"parentUIDs\":[46,57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":58,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1061,\"yPos\":-1046},\"ID\":50,\"TMPFontGUID\":null,\"Text\":\"\u6211\u6CA1\u6709\u542C\u89C1\uFF0C\u4ED6\u4EEC\u4E00\u5B9A\u90FD\u662F\u4E2D\u4E86\u90AA\u3002\\n\",\"parentUIDs\":[48,68],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":70,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":701,\"yPos\":-1031},\"ID\":52,\"TMPFontGUID\":null,\"Text\":\"\u67AA\u6BD9\u4ED6\uFF01\u7ACB\u523B\uFF01\\n\",\"parentUIDs\":[51,67],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":69,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":898,\"yPos\":-2321},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\".......\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":57,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":893,\"yPos\":-2200},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"\u8BE5\u6B7B\uFF01\u4F60\u8FD9\u4E2A\u75AF\u5B50\uFF01\",\"parentUIDs\":[56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":48,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":887,\"yPos\":-1930},\"ID\":58,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u4EEC\u6CA1\u4E00\u4E2A\u6B63\u5E38\u4EBA\uFF01\u5B89\u5FB7\u9C81\u8FD9\u4E2A\u53EF\u601C\u7684\u5B69\u5B50\u3002\\n\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":59,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":887,\"yPos\":-1800},\"ID\":59,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u8239\u957F,
-    \u5DF4\u514B\u5229\u3002\\n\",\"parentUIDs\":[58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":60,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":881,\"yPos\":-1669},\"ID\":60,\"TMPFontGUID\":null,\"Text\":\"\u95ED\u5634\u514B\u5170\u897F\uFF0C\u4F60\u8FD9\u4E2A\u8001\u4E0D\u6B7B\u7684\uFF0C\u4E3A\u4EC0\u4E48\u4E0D\u8BF4\u5B9E\u8BDD\uFF01\u4ECA\u5929\u6211\u5C31\u8981\u8FD4\u822A\uFF01\\n\",\"parentUIDs\":[59],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[61,62],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":702,\"yPos\":-1441},\"ID\":63,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u6211\uFF0C\u7ACB\u523B\uFF01\\n\",\"parentUIDs\":[61],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":65,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1043,\"yPos\":-1439},\"ID\":64,\"TMPFontGUID\":null,\"Text\":\"\u542C\u6211\u8BF4\u5DF4\u514B\u5229\uFF0C\u5B89\u5FB7\u9C81\u75AF\u4E86\uFF0C\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF0C\u6211\u4E0D\u5F97\u4E0D\u8FD9\u6837\u505A\u3002\\n\",\"parentUIDs\":[62],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":66,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":696,\"yPos\":-1304},\"ID\":65,\"TMPFontGUID\":null,\"Text\":\"
-    \u4F60\u8FD9\u4E2A\u987D\u56FA\u7684\u75AF\u5B50\uFF0C\u90FD\u602A\u4F60\uFF01\\n\",\"parentUIDs\":[63],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":67,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1046,\"yPos\":-1305},\"ID\":66,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u6CA1\u6709\u75AF\uFF01\u6211\u4EEC\u90FD\u542C\u89C1\u4E86\uFF01\u53EA\u6709\u4F60\u542C\u4E0D\u89C1\uFF01\\n\",\"parentUIDs\":[64],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":68,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":697,\"yPos\":-1180},\"ID\":67,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u8239\u957F\uFF0C\u8FD9\u4E0D\u602A\u4ED6\u3002\\n\",\"parentUIDs\":[65],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":52,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1051,\"yPos\":-1179},\"ID\":68,\"TMPFontGUID\":null,\"Text\":\"\u6211\u542C\u89C1\u4E86\u8239\u957F\uFF0C\u7684\u7684\u786E\u786E\u3002\\n\",\"parentUIDs\":[66],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":50,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":696,\"yPos\":-895},\"ID\":69,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u903C\u6211\u5DF4\u514B\u5229\",\"parentUIDs\":[52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":71,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1064,\"yPos\":-906},\"ID\":70,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4EC0\u4E48\u90FD\u6CA1\u542C\u89C1\u3002\\n\",\"parentUIDs\":[50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":72,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":700,\"yPos\":-776},\"ID\":71,\"TMPFontGUID\":null,\"Text\":\"
-    \u5F00\u67AA\u8239\u957F\uFF0C\u6CA1\u4EC0\u4E48\u597D\u72B9\u8C6B\u7684\u3002\\n\",\"parentUIDs\":[69],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":73,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1065,\"yPos\":-768},\"ID\":72,\"TMPFontGUID\":null,\"Text\":\"\u6240\u4EE5\u4ED6\u4EEC\u624D\u662F\u75AF\u5B50!\\n\",\"parentUIDs\":[70],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":73,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":882,\"yPos\":-625},\"ID\":73,\"TMPFontGUID\":null,\"Text\":\"\u8239\u957F\uFF0C\u5DF4\u514B\u5229\u8BF4\u7684\u662F\u771F\u7684\u3002\\n\",\"parentUIDs\":[71,72],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":75,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":884,\"yPos\":-504},\"ID\":75,\"TMPFontGUID\":null,\"Text\":\"\u522B\u8DDF\u4ED6\u5E9F\u8BDD\u514B\u5170\u897F\uFF0C\u6211\u4EEC\u8FD9\u5C31\u56DE\u5BB6\uFF01\\n\",\"parentUIDs\":[73],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":76,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":884,\"yPos\":-386},\"ID\":76,\"TMPFontGUID\":null,\"Text\":\"\u8239\u957F\uFF0C\u4F60\u8BB0\u4E0D\u8D77\u6765\u4E86\u5417\uFF1F\",\"parentUIDs\":[75],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":77,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":888,\"yPos\":-265},\"ID\":77,\"TMPFontGUID\":null,\"Text\":\"\u8BB0\u4E0D\u8D77\u6765\u4E3A\u4EC0\u4E48\u7ECF\u5E38\u5934\u75BC\u4E86\u5417\uFF1F\",\"parentUIDs\":[76],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":78,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":886,\"yPos\":-139},\"ID\":78,\"TMPFontGUID\":null,\"Text\":\"\u522B\u542C\u4ED6\u5E9F\u8BDD\u8239\u957F\uFF0C\u5DF4\u514B\u5229\u5FEB\u628A\u4F60\u6390\u6B7B\u4E86\uFF01\\n\",\"parentUIDs\":[77],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":79,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":882,\"yPos\":-20},\"ID\":79,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[78],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":80,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":881,\"yPos\":103},\"ID\":80,\"TMPFontGUID\":null,\"Text\":\"41\u5E74\u7684\u79CB\u5929\uFF0C\u90A3\u4E2A\u65E0\u4EBA\u751F\u8FD8\u7684\u6E2F\u53E3\u3002\",\"parentUIDs\":[79],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":81,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":879,\"yPos\":215},\"ID\":81,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF01\u4F60\u4F1A\u6B7B\u7684\u8239\u957F\uFF01\",\"parentUIDs\":[80],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":82,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":877,\"yPos\":332},\"ID\":82,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4E00\u76F4\u4FE1\u4EFB\u4F60\uFF0C\u4F60\u4E0D\u8BE5\u4E00\u76F4\u81EA\u8D23\u7684\u8239\u957F\u3002\\n\",\"parentUIDs\":[81],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":83,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":878,\"yPos\":446},\"ID\":83,\"TMPFontGUID\":null,\"Text\":\"\u5C31\u73B0\u5728\uFF01\u5F00\u706B\uFF01\uFF01\\n\",\"parentUIDs\":[82],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[84,85,86,87],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  CurrentIDCounter: 100
+  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-387.5,\"yPos\":-2693},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u653E\u4EFB\u5F00\u67AA\\n\",\"parentUIDs\":[41,56],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":458.5,\"yPos\":-2702},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"
+    \u963B\u6B62\u5F00\u67AA\\n\",\"parentUIDs\":[41,56],\"SpeechUID\":-1},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-189.5,\"yPos\":-2020},\"ID\":61,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u6211\uFF0C\u7ACB\u523B\uFF01\\n\",\"parentUIDs\":[60,60],\"SpeechUID\":63},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":143.5,\"yPos\":-2014},\"ID\":62,\"TMPFontGUID\":null,\"Text\":\"\u542C\u6211\u8BF4\u5DF4\u514B\u5229\uFF0C\u5B89\u5FB7\u9C81\u75AF\u4E86\uFF0C\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF0C\u6211\u4E0D\u5F97\u4E0D\u8FD9\u6837\u505A\u3002\\n\",\"parentUIDs\":[60,60],\"SpeechUID\":64},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-285.5,\"yPos\":117},\"ID\":84,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF08\u5DF4\u514B\u5229\uFF09\\n\",\"parentUIDs\":[83,83],\"SpeechUID\":97},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-14.5,\"yPos\":114},\"ID\":85,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF08\u83B1\u798F\uFF09\\n\",\"parentUIDs\":[83,83],\"SpeechUID\":98},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":200.5,\"yPos\":121},\"ID\":86,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF08\u514B\u5170\u897F\uFF09\\n\",\"parentUIDs\":[83,83],\"SpeechUID\":99},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":472.5,\"yPos\":122},\"ID\":87,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[83,83],\"SpeechUID\":-1}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":5.5,\"yPos\":-3288},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u4F60\u8FD9\u4E2A\u75AF\u5B50\uFF01\u6211\u4E5F\u542C\u89C1\u4E86\uFF01\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":8.5,\"yPos\":-3162},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"
+    ...\u8239\u957F\\n\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":11.5,\"yPos\":-3031},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"
+    \u8BE5\u6B7B\u7684\uFF01\u514B\u5170\u897F\uFF0C\u544A\u8BC9\u4ED6\uFF0C\u544A\u8BC9\u4ED6\u4F60\u4E5F\u542C\u89C1\u4E86\uFF01\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":9.5,\"yPos\":-2915},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u80FD\u6740\u6B7B\u5B89\u5FB7\u9C81\uFF01\u5C31\u80FD\u6740\u6B7B\u6211\u4EEC\u514B\u5170\u897F\uFF01\u8C01\u4E5F\u8DD1\u4E0D\u4E86\uFF01\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-6.5,\"yPos\":-2531},\"ID\":48,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u6211\u5DF4\u514B\u5229\uFF0C\u4E0D\u8981\u903C\u6211\u3002\\n\",\"parentUIDs\":[57,57],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":58,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":166.5,\"yPos\":-1518},\"ID\":50,\"TMPFontGUID\":null,\"Text\":\"\u6211\u6CA1\u6709\u542C\u89C1\uFF0C\u4ED6\u4EEC\u4E00\u5B9A\u90FD\u662F\u4E2D\u4E86\u90AA\u3002\\n\",\"parentUIDs\":[48,68,68],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":70,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-193.5,\"yPos\":-1503},\"ID\":52,\"TMPFontGUID\":null,\"Text\":\"\u67AA\u6BD9\u4ED6\uFF01\u7ACB\u523B\uFF01\\n\",\"parentUIDs\":[67,67],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":69,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":3.5,\"yPos\":-2793},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\".......\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":57,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-1.5,\"yPos\":-2672},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"\u8BE5\u6B7B\uFF01\u4F60\u8FD9\u4E2A\u75AF\u5B50\uFF01\",\"parentUIDs\":[56,56],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":48,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-7.5,\"yPos\":-2402},\"ID\":58,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u4EEC\u6CA1\u4E00\u4E2A\u6B63\u5E38\u4EBA\uFF01\u5B89\u5FB7\u9C81\u8FD9\u4E2A\u53EF\u601C\u7684\u5B69\u5B50\u3002\\n\",\"parentUIDs\":[48,48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":59,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-7.5,\"yPos\":-2272},\"ID\":59,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u8239\u957F,
+    \u5DF4\u514B\u5229\u3002\\n\",\"parentUIDs\":[58,58],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":60,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-13.5,\"yPos\":-2141},\"ID\":60,\"TMPFontGUID\":null,\"Text\":\"\u95ED\u5634\u514B\u5170\u897F\uFF0C\u4F60\u8FD9\u4E2A\u8001\u4E0D\u6B7B\u7684\uFF0C\u4E3A\u4EC0\u4E48\u4E0D\u8BF4\u5B9E\u8BDD\uFF01\u4ECA\u5929\u6211\u5C31\u8981\u8FD4\u822A\uFF01\\n\",\"parentUIDs\":[59,59],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[61,62],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-192.5,\"yPos\":-1913},\"ID\":63,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u6211\uFF0C\u7ACB\u523B\uFF01\\n\",\"parentUIDs\":[61,61],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":65,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":148.5,\"yPos\":-1911},\"ID\":64,\"TMPFontGUID\":null,\"Text\":\"\u542C\u6211\u8BF4\u5DF4\u514B\u5229\uFF0C\u5B89\u5FB7\u9C81\u75AF\u4E86\uFF0C\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF0C\u6211\u4E0D\u5F97\u4E0D\u8FD9\u6837\u505A\u3002\\n\",\"parentUIDs\":[62,62],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":66,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-198.5,\"yPos\":-1776},\"ID\":65,\"TMPFontGUID\":null,\"Text\":\"
+    \u4F60\u8FD9\u4E2A\u987D\u56FA\u7684\u75AF\u5B50\uFF0C\u90FD\u602A\u4F60\uFF01\\n\",\"parentUIDs\":[63,63],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":67,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":151.5,\"yPos\":-1777},\"ID\":66,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u6CA1\u6709\u75AF\uFF01\u6211\u4EEC\u90FD\u542C\u89C1\u4E86\uFF01\u53EA\u6709\u4F60\u542C\u4E0D\u89C1\uFF01\\n\",\"parentUIDs\":[64,64],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":68,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-197.5,\"yPos\":-1652},\"ID\":67,\"TMPFontGUID\":null,\"Text\":\"\u653E\u5F00\u8239\u957F\uFF0C\u8FD9\u4E0D\u602A\u4ED6\u3002\\n\",\"parentUIDs\":[65,65],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":52,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":156.5,\"yPos\":-1651},\"ID\":68,\"TMPFontGUID\":null,\"Text\":\"\u6211\u542C\u89C1\u4E86\u8239\u957F\uFF0C\u7684\u7684\u786E\u786E\u3002\\n\",\"parentUIDs\":[66,66],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":50,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-198.5,\"yPos\":-1367},\"ID\":69,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u903C\u6211\u5DF4\u514B\u5229\",\"parentUIDs\":[52,52],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":71,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":169.5,\"yPos\":-1378},\"ID\":70,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4EC0\u4E48\u90FD\u6CA1\u542C\u89C1\u3002\\n\",\"parentUIDs\":[50,50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":72,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-194.5,\"yPos\":-1248},\"ID\":71,\"TMPFontGUID\":null,\"Text\":\"
+    \u5F00\u67AA\u8239\u957F\uFF0C\u6CA1\u4EC0\u4E48\u597D\u72B9\u8C6B\u7684\u3002\\n\",\"parentUIDs\":[69,69],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":73,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":170.5,\"yPos\":-1240},\"ID\":72,\"TMPFontGUID\":null,\"Text\":\"\u6240\u4EE5\u4ED6\u4EEC\u624D\u662F\u75AF\u5B50!\\n\",\"parentUIDs\":[70,70],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":73,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-12.5,\"yPos\":-1097},\"ID\":73,\"TMPFontGUID\":null,\"Text\":\"\u8239\u957F\uFF0C\u5DF4\u514B\u5229\u8BF4\u7684\u662F\u771F\u7684\u3002\\n\",\"parentUIDs\":[71,72,71,72],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":75,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-10.5,\"yPos\":-976},\"ID\":75,\"TMPFontGUID\":null,\"Text\":\"\u522B\u8DDF\u4ED6\u5E9F\u8BDD\u514B\u5170\u897F\uFF0C\u6211\u4EEC\u8FD9\u5C31\u56DE\u5BB6\uFF01\\n\",\"parentUIDs\":[73,73],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":76,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-10.5,\"yPos\":-858},\"ID\":76,\"TMPFontGUID\":null,\"Text\":\"\u8239\u957F\uFF0C\u4F60\u8BB0\u4E0D\u8D77\u6765\u4E86\u5417\uFF1F\",\"parentUIDs\":[75,75],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":77,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-6.5,\"yPos\":-737},\"ID\":77,\"TMPFontGUID\":null,\"Text\":\"\u8BB0\u4E0D\u8D77\u6765\u4E3A\u4EC0\u4E48\u7ECF\u5E38\u5934\u75BC\u4E86\u5417\uFF1F\",\"parentUIDs\":[76,76],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":78,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-8.5,\"yPos\":-611},\"ID\":78,\"TMPFontGUID\":null,\"Text\":\"\u522B\u542C\u4ED6\u5E9F\u8BDD\u8239\u957F\uFF0C\u5DF4\u514B\u5229\u5FEB\u628A\u4F60\u6390\u6B7B\u4E86\uFF01\\n\",\"parentUIDs\":[77,77],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":79,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-12.5,\"yPos\":-492},\"ID\":79,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[78,78],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":80,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-13.5,\"yPos\":-369},\"ID\":80,\"TMPFontGUID\":null,\"Text\":\"41\u5E74\u7684\u79CB\u5929\uFF0C\u90A3\u4E2A\u65E0\u4EBA\u751F\u8FD8\u7684\u6E2F\u53E3\u3002\",\"parentUIDs\":[79,79],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":81,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-15.5,\"yPos\":-257},\"ID\":81,\"TMPFontGUID\":null,\"Text\":\"\u5F00\u706B\uFF01\u4F60\u4F1A\u6B7B\u7684\u8239\u957F\uFF01\",\"parentUIDs\":[80,80],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":82,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-17.5,\"yPos\":-140},\"ID\":82,\"TMPFontGUID\":null,\"Text\":\"\u6211\u4E00\u76F4\u4FE1\u4EFB\u4F60\uFF0C\u4F60\u4E0D\u8BE5\u4E00\u76F4\u81EA\u8D23\u7684\u8239\u957F\u3002\\n\",\"parentUIDs\":[81,81],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":83,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-16.5,\"yPos\":-26},\"ID\":83,\"TMPFontGUID\":null,\"Text\":\"\u5C31\u73B0\u5728\uFF01\u5F00\u706B\uFF01\uFF01\\n\",\"parentUIDs\":[82,82],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[84,85,86,87],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-292,\"yPos\":201},\"ID\":97,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[84],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-30,\"yPos\":207},\"ID\":98,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[85],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":194,\"yPos\":216},\"ID\":99,\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[86],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -24970,6 +24982,9 @@ MonoBehaviour:
   - {fileID: 972639445}
   - {fileID: 972639444}
   - {fileID: 972639443}
+  - {fileID: 972639449}
+  - {fileID: 972639448}
+  - {fileID: 972639447}
   Event:
     m_PersistentCalls:
       m_Calls: []
@@ -25201,11 +25216,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 58
-  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":374.5,\"yPos\":-504},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u653E\u4EFB\u5F00\u67AA\\n\",\"parentUIDs\":[41,56,56],\"SpeechUID\":57},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1220.5,\"yPos\":-513},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"
-    \u963B\u6B62\u5F00\u67AA\\n\",\"parentUIDs\":[41,56,56],\"SpeechUID\":46}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":767.5,\"yPos\":-1099},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8BE5\u6B7B\u7684\uFF0C\u5C31\u4E0D\u8BE5\u653E\u4F60\u51FA\u6765\u7684\uFF01\u4F60\u8FD9\u4E2A\u6DF7\u86CB\uFF01\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":770.5,\"yPos\":-973},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":773.5,\"yPos\":-842},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"
-    \u8FD9\u56DE\u597D\u4E86\uFF01\u6211\u4EEC\u53EF\u4EE5\u56DE\u5BB6\u4E86\u5417\uFF01\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":771.5,\"yPos\":-726},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"
-    \u4E3B\uFF0C\u5E26\u6211\u56DE\u5BB6\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1219.5,\"yPos\":-411},\"ID\":46,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86\u5417\u8239\u957F\uFF01\u4ED6\u7838\u4E86\u6211\u4EEC\u7684\u63A2\u6D4B\u5668\uFF01\u6211\u4EEC\u5168\u90FD\u767D\u505A\u4E86\uFF01\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF01\\n\",\"parentUIDs\":[44,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":48,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1230.5,\"yPos\":-273},\"ID\":48,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u8FD8\u662F\u4E2A\u5B69\u5B50\u554A\uFF0C\u4ED6\u53EF\u80FD\u771F\u7684\u542C\u89C1\u4E86\u4EC0\u4E48\u3002\\n\",\"parentUIDs\":[46,46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":50,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1232.5,\"yPos\":-162},\"ID\":50,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u662F\u4E2A\u61E6\u592B\uFF0C\u4ED6\u4EC0\u4E48\u90FD\u6CA1\u542C\u89C1\uFF01\u4ED6\u53EA\u662F\u60F3\u56DE\u5BB6\uFF01\u4F60\u5FD8\u4E86\u4F60\u519B\u4EBA\u7684\u8A93\u8A00\u5417\uFF01\\n\",\"parentUIDs\":[48,48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":51,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1224.5,\"yPos\":-61},\"ID\":51,\"TMPFontGUID\":null,\"Text\":\"......\\n\",\"parentUIDs\":[50,50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":52,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":1236.5,\"yPos\":42},\"ID\":52,\"TMPFontGUID\":null,\"Text\":\"\u53BB\u4F60\u7684\uFF01\",\"parentUIDs\":[51,51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":765.5,\"yPos\":-631},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86
-    \u4F60\u8BE5\u4E3A\u4F60\u7684\u884C\u4E3A\u611F\u5230\u803B\u8FB1\uFF01\u4F60\u4E0D\u914D\u4F5C\u4E3A\u4E00\u540D\u5FB7\u610F\u5FD7\u519B\u4EBA\uFF01\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[43,44],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":376.5,\"yPos\":-406},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[43,43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":101,\"yPos\":42},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u653E\u4EFB\u5F00\u67AA\\n\",\"parentUIDs\":[41,56,56],\"SpeechUID\":57},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":947,\"yPos\":33},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"
+    \u963B\u6B62\u5F00\u67AA\\n\",\"parentUIDs\":[41,56,56],\"SpeechUID\":46}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":494,\"yPos\":-553},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8BE5\u6B7B\u7684\uFF0C\u5C31\u4E0D\u8BE5\u653E\u4F60\u51FA\u6765\u7684\uFF01\u4F60\u8FD9\u4E2A\u6DF7\u86CB\uFF01\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":39,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":497,\"yPos\":-427},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"clancy\",\"OptionUIDs\":[],\"SpeechUID\":40,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":500,\"yPos\":-296},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"
+    \u8FD9\u56DE\u597D\u4E86\uFF01\u6211\u4EEC\u53EF\u4EE5\u56DE\u5BB6\u4E86\u5417\uFF01\\n\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":41,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":498,\"yPos\":-180},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"
+    \u4E3B\uFF0C\u5E26\u6211\u56DE\u5BB6\u3002\\n\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"andrew\",\"OptionUIDs\":[],\"SpeechUID\":56,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":946,\"yPos\":135},\"ID\":46,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86\u5417\u8239\u957F\uFF01\u4ED6\u7838\u4E86\u6211\u4EEC\u7684\u63A2\u6D4B\u5668\uFF01\u6211\u4EEC\u5168\u90FD\u767D\u505A\u4E86\uFF01\u4ED6\u8FDD\u53CD\u4E86\u519B\u89C4\uFF01\\n\",\"parentUIDs\":[44,44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":48,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":957,\"yPos\":273},\"ID\":48,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u8FD8\u662F\u4E2A\u5B69\u5B50\u554A\uFF0C\u4ED6\u53EF\u80FD\u771F\u7684\u542C\u89C1\u4E86\u4EC0\u4E48\u3002\\n\",\"parentUIDs\":[46,46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":50,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":959,\"yPos\":384},\"ID\":50,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u662F\u4E2A\u61E6\u592B\uFF0C\u4ED6\u4EC0\u4E48\u90FD\u6CA1\u542C\u89C1\uFF01\u4ED6\u53EA\u662F\u60F3\u56DE\u5BB6\uFF01\u4F60\u5FD8\u4E86\u4F60\u519B\u4EBA\u7684\u8A93\u8A00\u5417\uFF01\\n\",\"parentUIDs\":[48,48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":51,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":951,\"yPos\":485},\"ID\":51,\"TMPFontGUID\":null,\"Text\":\"......\\n\",\"parentUIDs\":[50,50],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":52,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":963,\"yPos\":588},\"ID\":52,\"TMPFontGUID\":null,\"Text\":\"\u53BB\u4F60\u7684\uFF01\",\"parentUIDs\":[51,51],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":492,\"yPos\":-85},\"ID\":56,\"TMPFontGUID\":null,\"Text\":\"\u4F60\u75AF\u4E86
+    \u4F60\u8BE5\u4E3A\u4F60\u7684\u884C\u4E3A\u611F\u5230\u803B\u8FB1\uFF01\u4F60\u4E0D\u914D\u4F5C\u4E3A\u4E00\u540D\u5FB7\u610F\u5FD7\u519B\u4EBA\uFF01\\n\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"rive\",\"OptionUIDs\":[43,44],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":103,\"yPos\":140},\"ID\":57,\"TMPFontGUID\":null,\"Text\":\"....\",\"parentUIDs\":[43,43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -25293,7 +25308,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

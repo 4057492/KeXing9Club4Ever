@@ -523,7 +523,10 @@ namespace DialogueEditor
             parentUIDs = new List<int>();
             for (int i = 0; i < parents.Count; i++)
             {
-                parentUIDs.Add(parents[i].ID);
+                if (parents[i] != null)
+                {
+                    parentUIDs.Add(parents[i].ID);
+                }
             }
 
             if (OptionUIDs != null)
