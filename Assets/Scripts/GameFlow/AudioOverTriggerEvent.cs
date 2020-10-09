@@ -9,7 +9,7 @@ public class AudioOverTriggerEvent : MonoBehaviour
 {
     public bool ifDestroy = true;
     private AudioSource audioSource;
-    private float waitTime = 0;
+    public float waitTime = 0;
 
     [Serializable]
     public class AudioOverEvent : UnityEvent {}
@@ -28,7 +28,8 @@ public class AudioOverTriggerEvent : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         if(audioSource.clip!=null)
         {
-            waitTime = audioSource.clip.length;
+            if(waitTime>audioSource.clip.length || waitTime == 0)
+                waitTime = audioSource.clip.length;
         }
     }
     public void BeginAudioPlay()
