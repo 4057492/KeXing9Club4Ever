@@ -10836,7 +10836,7 @@ PrefabInstance:
     - target: {fileID: 8162517840938824663, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
       propertyPath: m_OnTriggerInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8162517840938824663, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
@@ -22160,7 +22160,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  TMPFont: {fileID: 11400000, guid: 0d1bc377c59c6e046ab8e1c289b81e0d, type: 2}
+  TMPFont: {fileID: 0}
   Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &1535389277 stripped
@@ -26499,7 +26499,7 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  TMPFont: {fileID: 11400000, guid: 0d1bc377c59c6e046ab8e1c289b81e0d, type: 2}
+  TMPFont: {fileID: 11400000, guid: 29ba25bd82371994895f8e3cfebc1204, type: 2}
   Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1870607229
@@ -26518,7 +26518,7 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  TMPFont: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
+  TMPFont: {fileID: 11400000, guid: 29ba25bd82371994895f8e3cfebc1204, type: 2}
   Icon: {fileID: 865662947831631912, guid: 25318a95935a5f349a3eed4bcc287949, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1870607230
