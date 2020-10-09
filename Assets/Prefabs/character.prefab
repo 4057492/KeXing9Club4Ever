@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7376783139888818063}
   - component: {fileID: 7376783139888818056}
   - component: {fileID: 7376783139888818163}
+  - component: {fileID: 7376783139888818060}
   - component: {fileID: 7376783139888818061}
   - component: {fileID: 7376783139888818161}
   - component: {fileID: 7376783139888818162}
@@ -109,6 +110,21 @@ MonoBehaviour:
   blurIterations: 1
   blurType: 0
   fastBloomShader: {fileID: 4800000, guid: 68a00c837b82e4c6d92e7da765dc5f1d, type: 3}
+--- !u!114 &7376783139888818060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7376783139888818057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4739c22ef73ad62488fe344c8fe9addd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strengthX: 0.05
+  strengthY: 0.05
+  fishEyeShader: {fileID: 4800000, guid: 874ceab4425f64bccb1d14032f4452b1, type: 3}
 --- !u!114 &7376783139888818061
 MonoBehaviour:
   m_ObjectHideFlags: 0
