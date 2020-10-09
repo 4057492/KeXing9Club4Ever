@@ -8,6 +8,7 @@ using DialogueEditor;
 
 public class TempConversationEndListener : MonoBehaviour
 {
+    public bool ifAutoDestory = true;
     [Serializable]
     public class ConversationOverEvent : UnityEvent {}
 
@@ -30,6 +31,9 @@ public class TempConversationEndListener : MonoBehaviour
     {
         onConversationOver.Invoke();
         ConversationManager.OnConversationEnded -= OnConversationEnd;
-        Destroy(gameObject);
+        if(ifAutoDestory)
+        {
+            Destroy(gameObject);
+        }
     }
 }
