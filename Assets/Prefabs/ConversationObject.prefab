@@ -123,6 +123,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  ifAutoLink: 1
 --- !u!212 &6507526325379303309
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -244,7 +245,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 49
   m_Sprite: {fileID: 21300000, guid: 8c28b34d3fd723d41979f786860f526d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
