@@ -2549,7 +2549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "I finish what god built. \r\n\u6211\u6765\u5B8C\u6210\u4E0A\u5E1D\u672A\u7ADF\u4E4B\u4E8B"
+  m_text: "1941\u5E74\u79CB\uFF0C\u5927\u897F\u6D0B\u5317\u90E8\u3002\n\u6218\u65F6\u64AD\u62A5\uFF0C\u6211\u519Bu30\u53F7\u5C0F\u578B\u6F5C\u8247\u4E8E\u5927\u897F\u6D0B\u5317\u90E8\u6D77\u57DF\u8FDB\u884C\u7279\u6B8A\u4EFB\u52A1\uFF0C\u51FB\u6C89\u654C\u519B\u5DE1\u822A\u8230\u4E09\u8258\uFF0C\u51FB\u6C89\u654C\u519B\u6F5C\u8247\u4E24\u8258\u3002\u4F5C\u6218\u987A\u5229\uFF0C\u8BF7\u8FD4\u822A\uFF0C\u91CD\u590D\uFF0C\u4F5C\u6218\u987A\u5229\uFF0C\u8BF7\u8FD4\u822A\u3002\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f90eb79d3f776314da558447b100d8df, type: 2}
   m_sharedMaterial: {fileID: -4585795622322163734, guid: f90eb79d3f776314da558447b100d8df,
@@ -2619,14 +2619,14 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 522113574}
-    characterCount: 37
+    characterCount: 85
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 6
+    spaceCount: 2
+    wordCount: 11
     linkCount: 0
-    lineCount: 2
+    lineCount: 4
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4832,7 +4832,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 1.25
+  m_padding: 0
   m_canvasRenderer: {fileID: 1397079456}
   m_TextComponent: {fileID: 522113574}
   m_materialReferenceIndex: 1
