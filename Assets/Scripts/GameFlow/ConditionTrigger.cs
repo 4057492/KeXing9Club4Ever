@@ -43,15 +43,15 @@ public class ConditionTrigger : MonoBehaviour
 
     void CheckIfShouldTrigger()
     {
-        bool result = true;
         foreach(bool condition in conditions)
         {
-            result = result & condition;
+            if(!condition)
+            {
+                return;
+            }
         }
-        if(result)
-        {
-            m_OnCondition.Invoke();
-        }
+        m_OnCondition.Invoke();
+        
     }
 
 
