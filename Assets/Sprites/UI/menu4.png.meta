@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 1e10c3231c042c1409081d02549eadaf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
+=======
+guid: 96b72d927a6118b45bf0abf027ddeb51
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 10
+>>>>>>> 68e708a46f31f80822ae6e705eb48281fb29b56f
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -57,7 +65,10 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+<<<<<<< HEAD
   applyGammaDecoding: 0
+=======
+>>>>>>> 68e708a46f31f80822ae6e705eb48281fb29b56f
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
