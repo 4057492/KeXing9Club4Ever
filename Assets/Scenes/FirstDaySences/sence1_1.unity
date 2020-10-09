@@ -323,6 +323,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -396,6 +397,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -469,6 +471,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -546,6 +549,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -895,6 +899,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2235,6 +2240,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3004,6 +3010,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3042,6 +3049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConversationDJ1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507526325379303296, guid: 6512c6ea12626b54e86ca45626b2581e,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6507526325379303297, guid: 6512c6ea12626b54e86ca45626b2581e,
         type: 3}
@@ -3151,7 +3163,7 @@ PrefabInstance:
     - target: {fileID: 6507526325379303299, guid: 6512c6ea12626b54e86ca45626b2581e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -258.34567
+      value: -267.3457
       objectReference: {fileID: 0}
     - target: {fileID: 6507526325379303299, guid: 6512c6ea12626b54e86ca45626b2581e,
         type: 3}
@@ -3587,7 +3599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281621062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2831, y: 2.3, z: 0}
+  m_LocalPosition: {x: -0.2808, y: 2.22, z: 0}
   m_LocalScale: {x: 0.010937688, y: 18.704819, z: 1}
   m_Children: []
   m_Father: {fileID: 1545454508}
@@ -3792,6 +3804,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4474,6 +4487,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5062,6 +5076,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5979,12 +5994,12 @@ PrefabInstance:
     - target: {fileID: 7587245797865407968, guid: 0f7fb31920e3e034080b677e8283a876,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -200.77936
+      value: -202.21
       objectReference: {fileID: 0}
     - target: {fileID: 7587245797865407968, guid: 0f7fb31920e3e034080b677e8283a876,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.59696054
+      value: -0.67
       objectReference: {fileID: 0}
     - target: {fileID: 7587245797865407968, guid: 0f7fb31920e3e034080b677e8283a876,
         type: 3}
@@ -6030,6 +6045,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587245797865407968, guid: 0f7fb31920e3e034080b677e8283a876,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10.651305
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587245797865407968, guid: 0f7fb31920e3e034080b677e8283a876,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10.723949
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f7fb31920e3e034080b677e8283a876, type: 3}
@@ -6706,6 +6731,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6757,8 +6783,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 47
-  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":275.5,\"yPos\":-245},\"ID\":21,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u786E\u5B9A\u4EC0\u4E48\u5462\uFF1F\\n\",\"parentUIDs\":[20,20],\"SpeechUID\":24},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":542.5,\"yPos\":-243},\"ID\":22,\"TMPFontGUID\":null,\"Text\":\"\u8FD9\u662F\u83B1\u798F\u7684\u4E3B\u610F\u3002\\n\",\"parentUIDs\":[20,20],\"SpeechUID\":25},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":828.5,\"yPos\":-242},\"ID\":23,\"TMPFontGUID\":null,\"Text\":\"\u6267\u884C\u4F60\u7684\u547D\u4EE4\u58EB\u5175\u3002\\n\",\"parentUIDs\":[20,20],\"SpeechUID\":26},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":29.5,\"yPos\":137},\"ID\":32,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u7591\u795E\u7591\u9B3C\u4E86\uFF0C\u597D\u597D\u6267\u884C\u4EFB\u52A1\u5427\u3002\\n\",\"parentUIDs\":[27,45,45],\"SpeechUID\":34},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":321.5,\"yPos\":138},\"ID\":33,\"TMPFontGUID\":null,\"Text\":\"\u6BD4\u6E14\u8239\u8FD8\u5927\uFF1F\u6211\u8FD8\u4E0D\u77E5\u9053\u4F60\u4ECE\u6E14\u6C11\u90A3\u4E2A\u65F6\u5019\u5C31\u5F00\u59CB\u559D\u9152\u4E86\u5462\u3002\\n\",\"parentUIDs\":[27,45,45],\"SpeechUID\":35},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":173.5,\"yPos\":521},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"\u63A5\u8FC7\u5A01\u58EB\u5FCC\",\"parentUIDs\":[38,38],\"SpeechUID\":41},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":439.5,\"yPos\":525},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"\u62D2\u7EDD\u5A01\u58EB\u5FCC\",\"parentUIDs\":[38,38],\"SpeechUID\":42}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":548.5,\"yPos\":-732},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\u3002\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":18,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":548.5,\"yPos\":-608},\"ID\":18,\"TMPFontGUID\":null,\"Text\":\"\u5DF4\u514B\u5229\u3002\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":19,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":547.5,\"yPos\":-493},\"ID\":19,\"TMPFontGUID\":null,\"Text\":\"\u6211\u60F3\u4E0D\u901A\u4E3A\u4EC0\u4E48\u4F60\u4E00\u5B9A\u8981\u4E0B\u6F5C\u8FFD\u51FB\uFF0C\u8FD9\u6837\u7684\u6DF1\u5EA6\u5C31\u7B97\u662F\u654C\u519B\u6F5C\u8247\u6211\u4EEC\u4E5F\u5F88\u96BE\u5BF9\u4ED6\u505A\u4EC0\u4E48\uFF0C\u800C\u4E14\u8FD9\u7247\u6D77\u57DF\u8BA9\u6211\u611F\u89C9\u5F88\u4E0D\u597D\u3002\\n\",\"parentUIDs\":[18,18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":20,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":543.5,\"yPos\":-364},\"ID\":20,\"TMPFontGUID\":null,\"Text\":\"\u6211\u8FD9\u4E00\u8F88\u5B50\u90FD\u5728\u548C\u6D77\u6253\u4EA4\u9053\uFF0C\u4F46\u662F\u8FD9\u6B21\u6211\u771F\u7684\u4E0D\u786E\u5B9A\u4E86\u3002\\n\",\"parentUIDs\":[19,19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[21,22,23],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":269.5,\"yPos\":-155},\"ID\":24,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u786E\u5B9A\u4EC0\u4E48\u5462\uFF1F\\n\",\"parentUIDs\":[21,21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":27,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":539.5,\"yPos\":-139},\"ID\":25,\"TMPFontGUID\":null,\"Text\":\"\u8FD9\u662F\u83B1\u798F\u7684\u4E3B\u610F\u3002\\n\",\"parentUIDs\":[22,22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":28,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":832.5,\"yPos\":-137},\"ID\":26,\"TMPFontGUID\":null,\"Text\":\"\u6267\u884C\u4F60\u7684\u547D\u4EE4\u58EB\u5175\u3002\\n\",\"parentUIDs\":[23,23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":29,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":269.5,\"yPos\":-50},\"ID\":27,\"TMPFontGUID\":null,\"Text\":\"\u5509\uFF0C\u6700\u8FD1\u6211\u7ECF\u5E38\u611F\u89C9\u810A\u80CC\u53D1\u51C9\uFF0C\u6211\u4EFF\u4F5B\u56DE\u5230\u4E86\u89C1\u5230\u4EBA\u751F\u4E2D\u6700\u5927\u7684\u4E00\u6761White
-    Shark\u7684\u65F6\u5019\u3002\\n\",\"parentUIDs\":[24,24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":45,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":534.5,\"yPos\":6},\"ID\":28,\"TMPFontGUID\":null,\"Text\":\"\u83B1\u798F...\u6211\u8BE5\u65E9\u70B9\u76F8\u4FE1\u514B\u5170\u897F\u8BF4\u7684\u8BDD\u7684\u3002\\n\",\"parentUIDs\":[25,25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":30,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":824.5,\"yPos\":13},\"ID\":29,\"TMPFontGUID\":null,\"Text\":\"\u597D\u5427\u8239\u957F\",\"parentUIDs\":[26,26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":529.5,\"yPos\":139},\"ID\":30,\"TMPFontGUID\":null,\"Text\":\"\u4EC0\u4E48\u514B\u5170\u897F\u7684\u8BDD\uFF1F\\n\",\"parentUIDs\":[28,28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":31,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":527.5,\"yPos\":251},\"ID\":31,\"TMPFontGUID\":null,\"Text\":\"\u6CA1\u4EC0\u4E48\uFF0C\u6211\u8981\u7EE7\u7EED\u5DE5\u4F5C\u4E86\u8239\u957F\u3002\",\"parentUIDs\":[30,30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":22.5,\"yPos\":238},\"ID\":34,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u7591\u795E\u7591\u9B3C\u4E86\uFF0C\u597D\u597D\u6267\u884C\u4EFB\u52A1\u5427\u3002\\n\",\"parentUIDs\":[32,32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":36,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":317.5,\"yPos\":250},\"ID\":35,\"TMPFontGUID\":null,\"Text\":\"\u6BD4\u6E14\u8239\u8FD8\u5927\uFF1F\u6211\u8FD8\u4E0D\u77E5\u9053\u4F60\u4ECE\u6E14\u6C11\u90A3\u4E2A\u65F6\u5019\u5C31\u5F00\u59CB\u559D\u9152\u4E86\u5462\u3002\\n\",\"parentUIDs\":[33,33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":38,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":16.5,\"yPos\":372},\"ID\":36,\"TMPFontGUID\":null,\"Text\":\"\u597D\u5427\u8239\u957F\u3002\",\"parentUIDs\":[34,34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":305.5,\"yPos\":373},\"ID\":38,\"TMPFontGUID\":null,\"Text\":\"\u54C8\u54C8\u54C8\uFF0C\u53EF\u80FD\u6211\u559D\u660F\u5934\u4E86\uFF0C\u4E00\u8D77\u6765\u4E00\u676F\u5427\uFF0C\u80FD\u8BA9\u4F60\u6696\u548C\u3002\\n\",\"parentUIDs\":[35,35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[39,40],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":171.5,\"yPos\":626},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u5473\u9053\u786E\u5B9E\u4E0D\u9519\u3002\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":43,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":443.5,\"yPos\":628},\"ID\":42,\"TMPFontGUID\":null,\"Text\":\"\u8FD8\u662F\u7B97\u4E86\u3002\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":44,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":160.5,\"yPos\":747},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u6211\u7684\u54C1\u5473\u4E00\u76F4\u4E00\u6D41\uFF0C\u5982\u679C\u60A8\u60F3\u559D\u9152\u4E86\uFF0C\u5C31\u6765\u627E\u6211\uFF0C\u6211\u8981\u7EE7\u7EED\u5DE5\u4F5C\u4E86\u8239\u957F\uFF0C\u795D\u60A8\u4ECA\u5929\u987A\u5229\u3002\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":435.5,\"yPos\":755},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u52C9\u5F3A\uFF0C\u6211\u81EA\u5DF1\u8FD8\u4E0D\u591F\u559D\u5462\uFF0C\u6211\u8981\u5DE5\u4F5C\u4E86\u8239\u957F\u3002\",\"parentUIDs\":[42,42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":269,\"yPos\":34},\"ID\":45,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u5927\u5230\u53EF\u4EE5\u4E00\u53E3\u541E\u4E0B\u6211\u4EEC\u7684\u6E14\u8239\u3002\u81EA\u90A3\u4EE5\u540E\u6211\u4FBF\u5F00\u59CB\u76F8\u4FE1\uFF0C\u6D77\u91CC\u603B\u662F\u6709\u6211\u4EEC\u4E0D\u60F3\u89C1\u5230\u4E5F\u4E0D\u8BE5\u89C1\u5230\u7684\u4E1C\u897F\u3002\",\"parentUIDs\":[27,27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[32,33],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[{\"EditorInfo\":{\"isRoot\":false,\"xPos\":238.5,\"yPos\":509},\"ID\":21,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u786E\u5B9A\u4EC0\u4E48\u5462\uFF1F\\n\",\"parentUIDs\":[20,20],\"SpeechUID\":24},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":505.5,\"yPos\":511},\"ID\":22,\"TMPFontGUID\":null,\"Text\":\"\u8FD9\u662F\u83B1\u798F\u7684\u4E3B\u610F\u3002\\n\",\"parentUIDs\":[20,20],\"SpeechUID\":25},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":791.5,\"yPos\":512},\"ID\":23,\"TMPFontGUID\":null,\"Text\":\"\u6267\u884C\u4F60\u7684\u547D\u4EE4\u58EB\u5175\u3002\\n\",\"parentUIDs\":[20,20],\"SpeechUID\":26},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-7.5,\"yPos\":891},\"ID\":32,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u7591\u795E\u7591\u9B3C\u4E86\uFF0C\u597D\u597D\u6267\u884C\u4EFB\u52A1\u5427\u3002\\n\",\"parentUIDs\":[27,45,45],\"SpeechUID\":34},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":284.5,\"yPos\":892},\"ID\":33,\"TMPFontGUID\":null,\"Text\":\"\u6BD4\u6E14\u8239\u8FD8\u5927\uFF1F\u6211\u8FD8\u4E0D\u77E5\u9053\u4F60\u4ECE\u6E14\u6C11\u90A3\u4E2A\u65F6\u5019\u5C31\u5F00\u59CB\u559D\u9152\u4E86\u5462\u3002\\n\",\"parentUIDs\":[27,45,45],\"SpeechUID\":35},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":136.5,\"yPos\":1275},\"ID\":39,\"TMPFontGUID\":null,\"Text\":\"\u63A5\u8FC7\u5A01\u58EB\u5FCC\",\"parentUIDs\":[38,38],\"SpeechUID\":41},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":402.5,\"yPos\":1279},\"ID\":40,\"TMPFontGUID\":null,\"Text\":\"\u62D2\u7EDD\u5A01\u58EB\u5FCC\",\"parentUIDs\":[38,38],\"SpeechUID\":42}],\"SpeechNodes\":[{\"EditorInfo\":{\"isRoot\":true,\"xPos\":511.5,\"yPos\":22},\"ID\":0,\"TMPFontGUID\":\"\",\"Text\":\"\u8239\u957F\u3002\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":\"\",\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":\"2c2a5be59b4a36648a911535c6e46ab8\",\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":18,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":511.5,\"yPos\":146},\"ID\":18,\"TMPFontGUID\":null,\"Text\":\"\u5DF4\u514B\u5229\u3002\",\"parentUIDs\":[0,0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":19,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":510.5,\"yPos\":261},\"ID\":19,\"TMPFontGUID\":null,\"Text\":\"\u6211\u60F3\u4E0D\u901A\u4E3A\u4EC0\u4E48\u4F60\u4E00\u5B9A\u8981\u4E0B\u6F5C\u8FFD\u51FB\uFF0C\u8FD9\u6837\u7684\u6DF1\u5EA6\u5C31\u7B97\u662F\u654C\u519B\u6F5C\u8247\u6211\u4EEC\u4E5F\u5F88\u96BE\u5BF9\u4ED6\u505A\u4EC0\u4E48\uFF0C\u800C\u4E14\u8FD9\u7247\u6D77\u57DF\u8BA9\u6211\u611F\u89C9\u5F88\u4E0D\u597D\u3002\\n\",\"parentUIDs\":[18,18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":20,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":506.5,\"yPos\":390},\"ID\":20,\"TMPFontGUID\":null,\"Text\":\"\u6211\u8FD9\u4E00\u8F88\u5B50\u90FD\u5728\u548C\u6D77\u6253\u4EA4\u9053\uFF0C\u4F46\u662F\u8FD9\u6B21\u6211\u771F\u7684\u4E0D\u786E\u5B9A\u4E86\u3002\\n\",\"parentUIDs\":[19,19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[21,22,23],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":232.5,\"yPos\":599},\"ID\":24,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u786E\u5B9A\u4EC0\u4E48\u5462\uFF1F\\n\",\"parentUIDs\":[21,21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":27,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":502.5,\"yPos\":615},\"ID\":25,\"TMPFontGUID\":null,\"Text\":\"\u8FD9\u662F\u83B1\u798F\u7684\u4E3B\u610F\u3002\\n\",\"parentUIDs\":[22,22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":28,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":795.5,\"yPos\":617},\"ID\":26,\"TMPFontGUID\":null,\"Text\":\"\u6267\u884C\u4F60\u7684\u547D\u4EE4\u58EB\u5175\u3002\\n\",\"parentUIDs\":[23,23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":29,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":232.5,\"yPos\":704},\"ID\":27,\"TMPFontGUID\":null,\"Text\":\"\u5509\uFF0C\u6700\u8FD1\u6211\u7ECF\u5E38\u611F\u89C9\u810A\u80CC\u53D1\u51C9\uFF0C\u6211\u4EFF\u4F5B\u56DE\u5230\u4E86\u89C1\u5230\u4EBA\u751F\u4E2D\u6700\u5927\u7684\u4E00\u6761White
+    Shark\u7684\u65F6\u5019\u3002\\n\",\"parentUIDs\":[24,24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":45,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":497.5,\"yPos\":760},\"ID\":28,\"TMPFontGUID\":null,\"Text\":\"\u83B1\u798F...\u6211\u8BE5\u65E9\u70B9\u76F8\u4FE1\u514B\u5170\u897F\u8BF4\u7684\u8BDD\u7684\u3002\\n\",\"parentUIDs\":[25,25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":30,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":787.5,\"yPos\":767},\"ID\":29,\"TMPFontGUID\":null,\"Text\":\"\u597D\u5427\u8239\u957F\",\"parentUIDs\":[26,26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":492.5,\"yPos\":893},\"ID\":30,\"TMPFontGUID\":null,\"Text\":\"\u4EC0\u4E48\u514B\u5170\u897F\u7684\u8BDD\uFF1F\\n\",\"parentUIDs\":[28,28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":31,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":490.5,\"yPos\":1005},\"ID\":31,\"TMPFontGUID\":null,\"Text\":\"\u6CA1\u4EC0\u4E48\uFF0C\u6211\u8981\u7EE7\u7EED\u5DE5\u4F5C\u4E86\u8239\u957F\u3002\",\"parentUIDs\":[30,30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-14.5,\"yPos\":992},\"ID\":34,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u8981\u7591\u795E\u7591\u9B3C\u4E86\uFF0C\u597D\u597D\u6267\u884C\u4EFB\u52A1\u5427\u3002\\n\",\"parentUIDs\":[32,32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":36,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":280.5,\"yPos\":1004},\"ID\":35,\"TMPFontGUID\":null,\"Text\":\"\u6BD4\u6E14\u8239\u8FD8\u5927\uFF1F\u6211\u8FD8\u4E0D\u77E5\u9053\u4F60\u4ECE\u6E14\u6C11\u90A3\u4E2A\u65F6\u5019\u5C31\u5F00\u59CB\u559D\u9152\u4E86\u5462\u3002\\n\",\"parentUIDs\":[33,33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":38,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":-20.5,\"yPos\":1126},\"ID\":36,\"TMPFontGUID\":null,\"Text\":\"\u597D\u5427\u8239\u957F\u3002\",\"parentUIDs\":[34,34],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":268.5,\"yPos\":1127},\"ID\":38,\"TMPFontGUID\":null,\"Text\":\"\u54C8\u54C8\u54C8\uFF0C\u53EF\u80FD\u6211\u559D\u660F\u5934\u4E86\uFF0C\u4E00\u8D77\u6765\u4E00\u676F\u5427\uFF0C\u80FD\u8BA9\u4F60\u6696\u548C\u3002\\n\",\"parentUIDs\":[35,35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[39,40],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":134.5,\"yPos\":1380},\"ID\":41,\"TMPFontGUID\":null,\"Text\":\"\u5473\u9053\u786E\u5B9E\u4E0D\u9519\u3002\",\"parentUIDs\":[39,39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":43,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":406.5,\"yPos\":1382},\"ID\":42,\"TMPFontGUID\":null,\"Text\":\"\u8FD8\u662F\u7B97\u4E86\u3002\",\"parentUIDs\":[40,40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u8239\u957F\",\"OptionUIDs\":[],\"SpeechUID\":44,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":123.5,\"yPos\":1501},\"ID\":43,\"TMPFontGUID\":null,\"Text\":\"\u6211\u7684\u54C1\u5473\u4E00\u76F4\u4E00\u6D41\uFF0C\u5982\u679C\u60A8\u60F3\u559D\u9152\u4E86\uFF0C\u5C31\u6765\u627E\u6211\uFF0C\u6211\u8981\u7EE7\u7EED\u5DE5\u4F5C\u4E86\u8239\u957F\uFF0C\u795D\u60A8\u4ECA\u5929\u987A\u5229\u3002\",\"parentUIDs\":[41,41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":398.5,\"yPos\":1509},\"ID\":44,\"TMPFontGUID\":null,\"Text\":\"\u4E0D\u52C9\u5F3A\uFF0C\u6211\u81EA\u5DF1\u8FD8\u4E0D\u591F\u559D\u5462\uFF0C\u6211\u8981\u5DE5\u4F5C\u4E86\u8239\u957F\u3002\",\"parentUIDs\":[42,42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0},{\"EditorInfo\":{\"isRoot\":false,\"xPos\":232,\"yPos\":788},\"ID\":45,\"TMPFontGUID\":null,\"Text\":\"\u4ED6\u5927\u5230\u53EF\u4EE5\u4E00\u53E3\u541E\u4E0B\u6211\u4EEC\u7684\u6E14\u8239\u3002\u81EA\u90A3\u4EE5\u540E\u6211\u4FBF\u5F00\u59CB\u76F8\u4FE1\uFF0C\u6D77\u91CC\u603B\u662F\u6709\u6211\u4EEC\u4E0D\u60F3\u89C1\u5230\u4E5F\u4E0D\u8BE5\u89C1\u5230\u7684\u4E1C\u897F\u3002\",\"parentUIDs\":[27,27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"barkley\",\"OptionUIDs\":[32,33],\"SpeechUID\":-1,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 103
   DefaultName: "\u8239\u957F"
   DefaultSprite: {fileID: 4856531840153597513, guid: 0c47ceca746b5d54c9e7153fafc38fc0,
@@ -7709,6 +7735,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9876,6 +9903,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9885,7 +9913,6 @@ MonoBehaviour:
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
   m_padding: 1.25
-  m_canvasRenderer: {fileID: 677453453}
   m_TextComponent: {fileID: 1394463781}
   m_materialReferenceIndex: 1
 --- !u!222 &677453453
@@ -10433,6 +10460,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10864,7 +10892,7 @@ PrefabInstance:
     - target: {fileID: 4708402705173622551, guid: 42a7fbdf56f57cb47991b688f736ed06,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.050644
+      value: 10.209
       objectReference: {fileID: 0}
     - target: {fileID: 4708402705173622551, guid: 42a7fbdf56f57cb47991b688f736ed06,
         type: 3}
@@ -10919,7 +10947,7 @@ PrefabInstance:
     - target: {fileID: 4708402705173622551, guid: 42a7fbdf56f57cb47991b688f736ed06,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0493832
+      value: 1.0041236
       objectReference: {fileID: 0}
     - target: {fileID: 4708402705173622551, guid: 42a7fbdf56f57cb47991b688f736ed06,
         type: 3}
@@ -11419,6 +11447,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11499,6 +11528,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11675,6 +11705,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11752,6 +11783,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11831,6 +11863,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12392,6 +12425,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12713,7 +12747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138563620}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3216, y: 4.58, z: 0}
+  m_LocalPosition: {x: 0.3356, y: 4.66, z: 0}
   m_LocalScale: {x: -0.01693048, y: 14.843096, z: 1}
   m_Children: []
   m_Father: {fileID: 1545454508}
@@ -13667,6 +13701,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14322,6 +14357,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14594,6 +14630,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14671,6 +14708,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.2784314}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14925,6 +14963,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 0.5686275}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15102,6 +15141,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15154,7 +15194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350753743}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1132, y: 3.07, z: 0}
+  m_LocalPosition: {x: -0.1227, y: 3.26, z: 0}
   m_LocalScale: {x: 0.005880276, y: 17.484634, z: 1}
   m_Children: []
   m_Father: {fileID: 1545454508}
@@ -15365,6 +15405,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15442,6 +15483,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15522,6 +15564,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15548,13 +15591,12 @@ MonoBehaviour:
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_outlineColor:
-    serializedVersion: 2
-    rgba: 4278190080
   m_fontSize: 64
   m_fontSizeBase: 64
   m_fontWeight: 400
@@ -15562,6 +15604,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 33
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -15572,10 +15616,8 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 12
   m_linkedTextComponent: {fileID: 0}
-  m_isLinkedTextComponent: 0
-  m_isTextTruncated: 0
+  parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -15583,40 +15625,18 @@ MonoBehaviour:
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
-  m_ignoreRectMaskCulling: 0
-  m_ignoreCulling: 1
   m_horizontalMapping: 0
   m_verticalMapping: 0
   m_uvLineOffset: 0
   m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
   m_VertexBufferAutoSizeReduction: 1
-  m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_textInfo:
-    textComponent: {fileID: 1394463781}
-    characterCount: 89
-    spriteCount: 0
-    spaceCount: 15
-    wordCount: 16
-    linkCount: 0
-    lineCount: 18
-    pageCount: 1
-    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_spriteAnimator: {fileID: 0}
   m_hasFontAssetChanged: 0
-  m_subTextObjects:
-  - {fileID: 0}
-  - {fileID: 677453452}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1394463783
@@ -15868,6 +15888,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15920,7 +15941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429814794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0958, y: 3.93, z: 0}
+  m_LocalPosition: {x: 0.0922, y: 3.88, z: 0}
   m_LocalScale: {x: 0.010937688, y: 18.704819, z: 1}
   m_Children: []
   m_Father: {fileID: 1545454508}
@@ -16107,6 +16128,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -16609,7 +16631,7 @@ PrefabInstance:
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -72.9
+      value: -75.9
       objectReference: {fileID: 0}
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
@@ -17388,6 +17410,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17667,6 +17690,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17744,6 +17768,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17821,6 +17846,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17898,6 +17924,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17975,6 +18002,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18900,12 +18928,12 @@ PrefabInstance:
     - target: {fileID: 7870483212002391044, guid: 733cca4244e77384591f20a62f601fa0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -129.17935
+      value: -129.302
       objectReference: {fileID: 0}
     - target: {fileID: 7870483212002391044, guid: 733cca4244e77384591f20a62f601fa0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.24696016
+      value: -0.357
       objectReference: {fileID: 0}
     - target: {fileID: 7870483212002391044, guid: 733cca4244e77384591f20a62f601fa0,
         type: 3}
@@ -18951,6 +18979,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7870483212002391044, guid: 733cca4244e77384591f20a62f601fa0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10.642324
+      objectReference: {fileID: 0}
+    - target: {fileID: 7870483212002391044, guid: 733cca4244e77384591f20a62f601fa0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10.669309
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733cca4244e77384591f20a62f601fa0, type: 3}
@@ -19354,6 +19392,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -20357,7 +20396,7 @@ PrefabInstance:
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -125.87
+      value: -123.87
       objectReference: {fileID: 0}
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
@@ -20698,12 +20737,12 @@ PrefabInstance:
     - target: {fileID: 1115022115078490958, guid: 94d424cff32883d4298d0b5d3d044c56,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 78.32065
+      value: 80.45
       objectReference: {fileID: 0}
     - target: {fileID: 1115022115078490958, guid: 94d424cff32883d4298d0b5d3d044c56,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5569601
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: 1115022115078490958, guid: 94d424cff32883d4298d0b5d3d044c56,
         type: 3}
@@ -20750,6 +20789,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1115022115078490958, guid: 94d424cff32883d4298d0b5d3d044c56,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10.378554
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115022115078490958, guid: 94d424cff32883d4298d0b5d3d044c56,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11.158789
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94d424cff32883d4298d0b5d3d044c56, type: 3}
 --- !u!1001 &1838148781
@@ -20777,7 +20826,7 @@ PrefabInstance:
     - target: {fileID: 6507526325379303299, guid: 6512c6ea12626b54e86ca45626b2581e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -237.43286
+      value: -241.4329
       objectReference: {fileID: 0}
     - target: {fileID: 6507526325379303299, guid: 6512c6ea12626b54e86ca45626b2581e,
         type: 3}
@@ -21331,6 +21380,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21490,6 +21540,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21567,6 +21618,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -22154,6 +22206,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5754717, g: 0.5226909, b: 0.49675152, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -22327,7 +22380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961291404}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3224, y: 2.9, z: 0}
+  m_LocalPosition: {x: -0.3294, y: 2.86, z: 0}
   m_LocalScale: {x: 0.013474756, y: 16.660559, z: 1}
   m_Children: []
   m_Father: {fileID: 1545454508}
@@ -22543,6 +22596,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -22595,7 +22649,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963765278}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1277, y: 4.25, z: 0}
+  m_LocalPosition: {x: 0.1371, y: 4.37, z: 0}
   m_LocalScale: {x: -0.013380862, y: 14.286429, z: 1}
   m_Children: []
   m_Father: {fileID: 1545454508}
@@ -22869,7 +22923,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967325452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -258.16, y: -8.22, z: 755.5563}
+  m_LocalPosition: {x: -266.94, y: -7.69, z: 755.5563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1203387224}
@@ -23096,6 +23150,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -23224,7 +23279,7 @@ PrefabInstance:
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.39
+      value: 18.39
       objectReference: {fileID: 0}
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
@@ -25216,6 +25271,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -25281,7 +25337,7 @@ PrefabInstance:
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -143.352
+      value: -147.352
       objectReference: {fileID: 0}
     - target: {fileID: 8162517840938824681, guid: c94d64b09bcef92429861de7b0c6447a,
         type: 3}
@@ -26365,7 +26421,7 @@ PrefabInstance:
     - target: {fileID: 6507526325379303299, guid: 6512c6ea12626b54e86ca45626b2581e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -242.54286
+      value: -245.5429
       objectReference: {fileID: 0}
     - target: {fileID: 6507526325379303299, guid: 6512c6ea12626b54e86ca45626b2581e,
         type: 3}
