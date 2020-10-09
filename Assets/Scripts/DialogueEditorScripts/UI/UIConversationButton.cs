@@ -102,7 +102,9 @@ namespace DialogueEditor
             if (m_action != null)
                 ConversationManager.Instance.DoSpeech(m_action);
             else
+            {
                 ConversationManager.Instance.OptionSelected(m_option);
+            }
         }
 
 
